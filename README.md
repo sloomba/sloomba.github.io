@@ -4,3 +4,14 @@ I am a research fellow supervised by [Prof. James J. Collins](http://collinslab.
 I did my B.Tech in Computer Science and Engineering at [IIT Delhi](http://www.iitd.ac.in/), where my research was primarily guided by [Dr. Sumeet Agarwal](http://web.iitd.ac.in/~sumeet/research.html) and I worked on causal models of gene regulatory networks.
 
 My broad research interest is to apply mathematics and machine learning to better understand how complex biological and cognitive systems work.
+
+Curriculum Vitae
+Email: <sahil.loomba@wyss.harvard.edu>
+
+##Research Projects
+
+### At the Wyss Institute
+
+### At IIT Delhi
+
+### Others
