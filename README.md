@@ -8,7 +8,7 @@ My broad research interest is to apply mathematics and machine learning to bette
 Curriculum Vitae
 Email: <sahil.loomba@wyss.harvard.edu>
 
-##Research Projects
+## Research Projects
 
 ### At the Wyss Institute
 
