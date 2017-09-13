@@ -4,4 +4,4 @@ I did my B.Tech in Computer Science and Engineering at [IIT Delhi](http://www.ii
 
 My broad research interest is to apply mathematics and machine learning to better understand how complex biological and cognitive systems work.
 
-![sloomba](/images/sloomba.jpg)
+<img align="right" width="100" height="100" src="/images/sloomba.jpg">
