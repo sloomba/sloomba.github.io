@@ -11,58 +11,74 @@ Curriculum Vitae | [Google Scholar](https://scholar.google.com/citations?user=uu
 
 ## Research Projects
 ![Hierarchical Organization of the World](/images/organization_of_the_world.jpg)
+
 ### Computation Core
 
 #### X-t-SNE
-##### An extension of t-SNE for visualizing high dimensional feature spaces with associated graph structures
+An extension of t-SNE for visualizing high dimensional feature spaces with associated graph structures
 
 #### iWMMM
-##### Infinitely Warped Multimodal Mixture Models for clustering across multiple feature spaces
+Infinitely Warped Multimodal Mixture Models for clustering across multiple feature spaces
 
-### Computation for Biology
+## Computation for Biology
+
+### Biomolecules
 
 #### protein2vec
-##### Defining a vector space that embeds peptide sequences for solving proteomics problems
-
+Defining a vector space that embeds peptide sequences for solving proteomics problems
 
 #### Project ConDDR
-##### An information-retrieval approach to the drug repurposing problem
+An information-retrieval approach to the drug repurposing problem
+
+### Biomolecular Networks
 
 #### Project THoR
-##### Developing a probabilistic model of tolerance to pathogens for Technologies for Host Resilience
+Developing a probabilistic model of tolerance to pathogens for Technologies for Host Resilience
 
 #### Project SD2
-##### An automated pipeline for Synergestic Discovery and Design of biological circuits
+An automated pipeline for Synergestic Discovery and Design of biological circuits
 
 #### Causal GRNs
-##### A causal computational model for gene regulatory networks
+A causal computational model for gene regulatory networks
 
 #### Evolvable Networks
-##### A principled approach of defining biological networks that evolve
+A principled approach of defining biological networks that evolve
+
+### Biological Cells
 
 #### Game of Apoptosis (You Live or You Die)
-##### A simulation of a Boolean network model of programmed cell death
+A simulation of a Boolean network model of programmed cell death
 
 #### Project MALDI for Diagnosis
-##### A probabilistic model for detection of infectious pathogens
+A probabilistic model for detection of infectious pathogens
+
+### Human Body
 
 #### Project Abbie
-##### Analysis of breathing waveforms for preemptive prediction of an asthma attack
+Analysis of breathing waveforms for preemptive prediction of an asthma attack
 
-#### Plankton and Ocean Health
+### Environment
+
+Plankton and Ocean Health
 
 ### Computation for Cognition
 
+### Human Brain
+
 #### Human Category Learning
-##### Studying the brain functional lateralization of two popular models of category learning
+Studying the brain functional lateralization of two popular models of category learning
 
 #### Human Form Learning
-##### Extending a Bayesian model of how humans learn forms of structures of real-life entities
+Extending a Bayesian model of how humans learn forms of structures of real-life entities
+
+### Cellular Signalling
 
 #### Human Motor Control
-##### A simple analysis of EEG signals for classifying motor commands issued by the brain
+A simple analysis of EEG signals for classifying motor commands issued by the brain
 
 ### Computation for Society
+
+### Social Networks
 
 #### Wisdom of Crowds
 
@@ -71,6 +87,8 @@ Curriculum Vitae | [Google Scholar](https://scholar.google.com/citations?user=uu
 ##### MMToC
 
 ##### Video Lecture Sequencing
+
+### Society
 
 #### "Rationality" in Economics
 
