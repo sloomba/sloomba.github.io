@@ -5,12 +5,23 @@ I did my B.Tech in Computer Science and Engineering at [IIT Delhi](http://www.ii
 
 My broad research interest is to apply mathematics and machine learning to better understand how complex biological and cognitive systems work.
 
-Curriculum Vitae
+Curriculum Vitae | Google Scholar | Email: <sahil.loomba@wyss.harvard.edu>
 
-Email: <sahil.loomba@wyss.harvard.edu>
+<div class="list-group">
+  <a class="list-group-item" href="#"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; Home</a>
+  <a class="list-group-item" href="#"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp; Library</a>
+  <a class="list-group-item" href="#"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp; Applications</a>
+  <a class="list-group-item" href="#"><i class="fa fa-cog fa-fw" aria-hidden="true"></i>&nbsp; Settings</a>
+</div>
 
 ## Research Projects
 
-### At Wyss Institute
+### Computation for Biology
 
-### At IIT Delhi
+
+
+### Computation for Cognition
+
+
+
+### Computation Elsewhere
