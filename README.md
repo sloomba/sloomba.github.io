@@ -10,7 +10,7 @@ I also write sporadically on my [Medium blog](https://medium.com/@sahilloomba) a
 Curriculum Vitae | [Google Scholar](https://scholar.google.com/citations?user=uuwcbrAAAAAJ) | Email: <sahil.loomba@wyss.harvard.edu>
 
 ## Research Projects
-
+![Hierarchical Organization of the World](/images/organization_of_the_world.jpg)
 ### Computation Core
 
 #### X-t-SNE
