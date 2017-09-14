@@ -9,87 +9,87 @@ I also write sporadically on my [Medium blog](https://medium.com/@sahilloomba) a
 
 Curriculum Vitae | [Google Scholar](https://scholar.google.com/citations?user=uuwcbrAAAAAJ) | Email: <sahil.loomba@wyss.harvard.edu>
 
-## Research Projects
+# Research Projects
 ![Hierarchical Organization of the World](/images/organization_of_the_world.jpg)
 
-### Computation Core
+# Computation Core
 
-#### X-t-SNE
+### X-t-SNE
 An extension of t-SNE for visualizing high dimensional feature spaces with associated graph structures
 
-#### iWMMM
+### iWMMM
 Infinitely Warped Multimodal Mixture Models for clustering across multiple feature spaces
 
-## Computation for Biology
+# Computation for Biology
 
-### Biomolecules
+## Biomolecules
 
-#### protein2vec
+### protein2vec
 Defining a vector space that embeds peptide sequences for solving proteomics problems
 
-#### Project ConDDR
+### Project ConDDR
 An information-retrieval approach to the drug repurposing problem
 
-### Biomolecular Networks
+## Biomolecular Networks
 
-#### Project THoR
+### Project THoR
 Developing a probabilistic model of tolerance to pathogens for Technologies for Host Resilience
 
-#### Project SD2
+### Project SD2
 An automated pipeline for Synergestic Discovery and Design of biological circuits
 
-#### Causal GRNs
+### Causal GRNs
 A causal computational model for gene regulatory networks
 
-#### Evolvable Networks
+### Evolvable Networks
 A principled approach of defining biological networks that evolve
 
-### Biological Cells
+## Biological Cells
 
-#### Game of Apoptosis (You Live or You Die)
+### Game of Apoptosis (You Live or You Die)
 A simulation of a Boolean network model of programmed cell death
 
-#### Project MALDI for Diagnosis
+### Project MALDI for Diagnosis
 A probabilistic model for detection of infectious pathogens
 
-### Human Body
+## Human Body
 
-#### Project Abbie
+### Project Abbie
 Analysis of breathing waveforms for preemptive prediction of an asthma attack
 
-### Environment
+# Computation for Cognition
 
-Plankton and Ocean Health
+## Cellular Signalling
 
-### Computation for Cognition
-
-### Human Brain
-
-#### Human Category Learning
-Studying the brain functional lateralization of two popular models of category learning
-
-#### Human Form Learning
-Extending a Bayesian model of how humans learn forms of structures of real-life entities
-
-### Cellular Signalling
-
-#### Human Motor Control
+### Human Motor Control
 A simple analysis of EEG signals for classifying motor commands issued by the brain
 
-### Computation for Society
+## Human Brain
 
-### Social Networks
+### Human Category Learning
+Studying the brain functional lateralization of two popular models of category learning
 
-#### Wisdom of Crowds
+### Human Form Learning
+Extending a Bayesian model of how humans learn forms of structures of real-life entities
 
-#### Pedagogy in the Contemporary World
+# Computation for Society
 
-##### MMToC
+## Social Networks
 
-##### Video Lecture Sequencing
+### Wisdom of Crowds
 
-### Society
+### Pedagogy in the Contemporary World
 
-#### "Rationality" in Economics
+#### MMToC
 
-#### Unsettlment in Human Interactions
+#### Video Lecture Sequencing
+
+## Environment
+
+### Plankton and Ocean Health
+
+## Society
+
+### "Rationality" in Economics
+
+### Unsettlment in Human Interactions
