@@ -42,13 +42,13 @@ Defining a vector space that embeds peptide sequences for solving proteomics pro
 
 
 
-<img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_conddr.jpg">
+<img vspace="10" hspace="10" align="left" width="150" height="90" src="/images/thumb_conddr.jpg">
 ### Project ConDDR
 An information-retrieval approach to the drug repurposing problem
 
 ## Biomolecular Networks
 
-<img vspace="10" hspace="10" align="left" width="150" height="250" src="/images/thumb_crom3top.jpg">
+<img vspace="10" hspace="10" align="left" width="150" height="220" src="/images/thumb_crom3top.jpg">
 ### Project THoR
 Developing a probabilistic model of tolerance to pathogens for Technologies for Host Resilience
 
