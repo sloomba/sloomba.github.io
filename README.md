@@ -93,27 +93,33 @@ Studying the brain functional lateralization of two popular models of category l
 ### Human Form Learning
 Extending a Bayesian model of how humans learn forms of structures of real-life entities
 
-<img vspace="10" hspace="10" align="left" width="150" height="150" src="/images/thumb_complexitylivingbiosystems.jpg">
+<img vspace="10" hspace="10" align="left" width="150" height="130" src="/images/thumb_complexitylivingbiosystems.jpg">
 ### Complexity of Living and Biological Systems
 
 # Computation for Society
 
 ## Social Networks
 
+<img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_crowds.jpg">
 ### Wisdom of Crowds
 
 ### Pedagogy in the Contemporary World
 
+<img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_mmtoc.jpg">
 #### MMToC
 
+<img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_videosequencing.jpg">
 #### Video Lecture Sequencing
 
 ## Environment
 
+<img vspace="10" hspace="10" align="left" width="150" height="150" src="/images/thumb_plankton.jpg">
 ### Plankton and Ocean Health
 
 ## Society
 
+<img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_rationalityeconomics.jpg">
 ### "Rationality" in Economics
 
+<img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_unsettlement.jpg">
 ### Unsettlment in Human Interactions
