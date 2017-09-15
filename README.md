@@ -22,15 +22,12 @@ I believe computation is a vital tool for understanding things at all levels of 
 ### X-t-SNE
 An extension of t-SNE for visualizing high dimensional feature spaces with associated graph structures
 
-
-
-
 <img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_iwmmm.jpg">
 ### iWMMM
 Infinitely Warped Multimodal Mixture Models for clustering across multiple feature spaces
 
-
-
+<img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_hierarchicalensemble.jpg">
+### Hierarchical Ensemble Classifier
 
 # Computation for Biology
 
@@ -39,8 +36,6 @@ Infinitely Warped Multimodal Mixture Models for clustering across multiple featu
 <img vspace="10" hspace="10" align="left" width="150" height="80" src="/images/thumb_protein2vec.jpg">
 ### protein2vec
 Defining a vector space that embeds peptide sequences for solving proteomics problems
-
-
 
 <img vspace="10" hspace="10" align="left" width="150" height="110" src="/images/thumb_conddr.jpg">
 ### Project ConDDR
@@ -52,25 +47,31 @@ An information-retrieval approach to the drug repurposing problem
 ### Project THoR
 Developing a probabilistic model of tolerance to pathogens for Technologies for Host Resilience
 
+<img vspace="10" hspace="10" align="left" width="150" height="220" src="/images/thumb_sd2.jpg">
 ### Project SD2
 An automated pipeline for Synergestic Discovery and Design of biological circuits
 
+<img vspace="10" hspace="10" align="left" width="150" height="220" src="/images/thumb_causalgrn.jpg">
 ### Causal GRNs
 A causal computational model for gene regulatory networks
 
+<img vspace="10" hspace="10" align="left" width="150" height="220" src="/images/thumb_evolvablenetworks.jpg">
 ### Evolvable Networks
 A principled approach of defining biological networks that evolve
 
 ## Biological Cells
 
+<img vspace="10" hspace="10" align="left" width="150" height="220" src="/images/thumb_apoptosis.jpg">
 ### Game of Apoptosis (You Live or You Die)
 A simulation of a Boolean network model of programmed cell death
 
+<img vspace="10" hspace="10" align="left" width="150" height="220" src="/images/thumb_maldi.jpg">
 ### Project MALDI for Diagnosis
 A probabilistic model for detection of infectious pathogens
 
 ## Human Body
 
+<img vspace="10" hspace="10" align="left" width="150" height="220" src="/images/thumb_abbie.jpg">
 ### Project Abbie
 Analysis of breathing waveforms for preemptive prediction of an asthma attack
 
@@ -78,17 +79,21 @@ Analysis of breathing waveforms for preemptive prediction of an asthma attack
 
 ## Cellular Signalling
 
+<img vspace="10" hspace="10" align="left" width="150" height="220" src="/images/thumb_eeg.jpg">
 ### Human Motor Control
 A simple analysis of EEG signals for classifying motor commands issued by the brain
 
 ## Human Brain
 
+<img vspace="10" hspace="10" align="left" width="150" height="220" src="/images/thumb_prototypeexemplar.jpg">
 ### Human Category Learning
 Studying the brain functional lateralization of two popular models of category learning
 
+<img vspace="10" hspace="10" align="left" width="150" height="220" src="/images/thumb_formlearning.jpg">
 ### Human Form Learning
 Extending a Bayesian model of how humans learn forms of structures of real-life entities
 
+<img vspace="10" hspace="10" align="left" width="150" height="220" src="/images/thumb_complexitylivingbiosystems.jpg">
 ### Complexity of Living and Biological Systems
 
 # Computation for Society
