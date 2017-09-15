@@ -18,14 +18,14 @@ I believe computation is a vital tool for understanding things at all levels of 
 
 # Computation Core
 
-<img vspace="10" hspace="10" align="left" width="250" height="150" src="/images/thumb_xtsne.jpg">
+<img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_xtsne.jpg">
 ### X-t-SNE
 An extension of t-SNE for visualizing high dimensional feature spaces with associated graph structures
 
 
 
 
-<img vspace="10" hspace="10" align="left" width="250" height="150" src="/images/thumb_iwmmm.jpg">
+<img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_iwmmm.jpg">
 ### iWMMM
 Infinitely Warped Multimodal Mixture Models for clustering across multiple feature spaces
 
@@ -36,18 +36,19 @@ Infinitely Warped Multimodal Mixture Models for clustering across multiple featu
 
 ## Biomolecules
 
-<img vspace="10" hspace="10" align="left" width="250" height="150" src="/images/thumb_protein2vec.jpg">
+<img vspace="10" hspace="10" align="left" width="150" height="80" src="/images/thumb_protein2vec.jpg">
 ### protein2vec
 Defining a vector space that embeds peptide sequences for solving proteomics problems
 
 
 
-<img vspace="10" hspace="10" align="left" width="250" height="150" src="/images/thumb_conddr.jpg">
+<img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_conddr.jpg">
 ### Project ConDDR
 An information-retrieval approach to the drug repurposing problem
 
 ## Biomolecular Networks
 
+<img vspace="10" hspace="10" align="left" width="150" height="250" src="/images/thumb_crom3top.jpg">
 ### Project THoR
 Developing a probabilistic model of tolerance to pathogens for Technologies for Host Resilience
 
