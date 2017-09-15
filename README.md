@@ -18,14 +18,14 @@ I believe computation is a vital tool for understanding things at all levels of 
 
 # Computation Core
 
-<img vspace="10" hspace="10" align="left" width="150" height="150" src="/images/thumb_xtsne.jpg">
+<img vspace="10" hspace="10" align="left" width="250" height="150" src="/images/thumb_xtsne.jpg">
 ### X-t-SNE
 An extension of t-SNE for visualizing high dimensional feature spaces with associated graph structures
 
 
 
 
-<img vspace="10" hspace="10" align="left" width="200" height="150" src="/images/thumb_iwmmm.jpg">
+<img vspace="10" hspace="10" align="left" width="250" height="150" src="/images/thumb_iwmmm.jpg">
 ### iWMMM
 Infinitely Warped Multimodal Mixture Models for clustering across multiple feature spaces
 
@@ -42,7 +42,7 @@ Defining a vector space that embeds peptide sequences for solving proteomics pro
 
 
 
-
+<img vspace="10" hspace="10" align="left" width="250" height="150" src="/images/thumb_conddr.jpg">
 ### Project ConDDR
 An information-retrieval approach to the drug repurposing problem
 
