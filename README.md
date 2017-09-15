@@ -100,7 +100,7 @@ Extending a Bayesian model of how humans learn forms of structures of real-life 
 
 ## Social Networks
 
-<img vspace="10" hspace="10" align="left" width="150" height="130" src="/images/thumb_crowds.jpg">
+<img vspace="10" hspace="10" align="left" width="150" height="140" src="/images/thumb_crowds.jpg">
 ### Wisdom of Crowds
 
 ### Pedagogy in the Contemporary World
@@ -113,7 +113,7 @@ Extending a Bayesian model of how humans learn forms of structures of real-life 
 
 ## Environment
 
-<img vspace="10" hspace="10" align="left" width="150" height="140" src="/images/thumb_plankton.jpg">
+<img vspace="10" hspace="10" align="left" width="150" height="130" src="/images/thumb_plankton.jpg">
 ### Plankton and Ocean Health
 
 ## Society
