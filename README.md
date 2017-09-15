@@ -42,7 +42,7 @@ Defining a vector space that embeds peptide sequences for solving proteomics pro
 
 
 
-<img vspace="10" hspace="10" align="left" width="150" height="90" src="/images/thumb_conddr.jpg">
+<img vspace="10" hspace="10" align="left" width="150" height="110" src="/images/thumb_conddr.jpg">
 ### Project ConDDR
 An information-retrieval approach to the drug repurposing problem
 
