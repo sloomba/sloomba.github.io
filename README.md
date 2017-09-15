@@ -51,7 +51,7 @@ Developing a probabilistic model of tolerance to pathogens for Technologies for 
 ### Project SD2
 An automated pipeline for Synergestic Discovery and Design of biological circuits
 
-<img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_causalgrn.jpg">
+<img vspace="10" hspace="10" align="left" width="150" height="80" src="/images/thumb_causalgrn.jpg">
 ### Causal GRNs
 A causal computational model for gene regulatory networks
 
@@ -118,7 +118,7 @@ Extending a Bayesian model of how humans learn forms of structures of real-life 
 
 ## Society
 
-<img vspace="10" hspace="10" align="left" width="150" height="130" src="/images/thumb_rationalityeconomics.jpg">
+<img vspace="10" hspace="10" align="left" width="150" height="140" src="/images/thumb_rationalityeconomics.jpg">
 ### "Rationality" in Economics
 
 <img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_unsettlement.jpg">
