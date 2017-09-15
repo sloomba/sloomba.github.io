@@ -22,17 +22,26 @@ I believe computation is a vital tool for understanding things at all levels of 
 ### X-t-SNE
 An extension of t-SNE for visualizing high dimensional feature spaces with associated graph structures
 
+
+
+
 <img vspace="10" hspace="10" align="left" width="200" height="150" src="/images/thumb_iwmmm.jpg">
 ### iWMMM
 Infinitely Warped Multimodal Mixture Models for clustering across multiple feature spaces
+
+
+
 
 # Computation for Biology
 
 ## Biomolecules
 
-<img vspace="10" hspace="10" align="left" width="200" height="150" src="/images/thumb_protein2vec.jpg">
+<img vspace="10" hspace="10" align="left" width="250" height="150" src="/images/thumb_protein2vec.jpg">
 ### protein2vec
 Defining a vector space that embeds peptide sequences for solving proteomics problems
+
+
+
 
 ### Project ConDDR
 An information-retrieval approach to the drug repurposing problem
