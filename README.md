@@ -5,12 +5,16 @@ I did my B.Tech in Computer Science and Engineering at [IIT Delhi](http://www.ii
 
 My broad research interest is to apply mathematics and machine learning to better understand how complex biological, cognitive and eventually social systems work.
 
-I also write sporadically on my [Medium blog](https://medium.com/@sahilloomba) about things that cross my mind. 
+I also write sporadically on my [Medium](https://medium.com/@sahilloomba) about things that cross my mind. 
 
 Curriculum Vitae | [Google Scholar](https://scholar.google.com/citations?user=uuwcbrAAAAAJ) | Email: <sahil.loomba@wyss.harvard.edu>
 
-# Research Projects
+# Research
+
+I have always believed in computation as a vital tool for understanding things at all levels of organization of the world, right from the fundamental particles of the universe, to the biomolecules that make life possible, to the wonders of biological intelligence, right up to the intricate social interactions that make up human civilization. Although most of my work focusses on biological and cognitive systems, I like to situate my research in the context of this organizational hierarchy.
+
 ![Hierarchical Organization of the World](/images/organization_of_the_world.jpg)
+*Hierarchical Organization of the World*
 
 # Computation Core
 
@@ -71,6 +75,8 @@ Studying the brain functional lateralization of two popular models of category l
 
 ### Human Form Learning
 Extending a Bayesian model of how humans learn forms of structures of real-life entities
+
+### Complexity of Living and Biological Systems
 
 # Computation for Society
 
