@@ -74,7 +74,7 @@ A principled approach of defining biological networks that evolve
 <img vspace="10" hspace="10" align="left" width="150" height="110" src="/images/thumb_maldi.jpg">
 The purpose of this project is to identify *Mycobacterium tuberculosis* within biological fluids, particularly human urine, for use as a diagnostic. We currently have extracted pathogen from solution using FcMBL magnetic nanobead technology. The captured material is then analyzed using matrix-assisted laser deionization time-of-flight/time-of-flight [(MALDI-TOF/TOF)](https://en.wikipedia.org/wiki/Matrix-assisted_laser_desorption/ionization) tandem mass spectrometry. This produces a series of peaks specifying the mass-to-charge ratios of the sample of interest. Peak libraries exclusive to several strains of *M. tuberculosis* as well as other microbes including *Staphylococcus aureus* and *Candida albicans* have been assembled. We created a probabilistic model from these libraries in order to identify a pathogen from an unknown sample.
 
-pdf | webapp | code
+pdf | [webapp](https://sloomba.shinyapps.io/maldi/)
 
 ### Game of Apoptosis (You Live or You Die)
 <img vspace="10" hspace="10" align="left" width="150" height="220" src="/images/thumb_apoptosis.jpg">
