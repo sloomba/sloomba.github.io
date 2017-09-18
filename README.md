@@ -24,7 +24,7 @@ Notice that there is a lot of shared structure of problems at various levels of 
 <img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_xtsne.jpg">
 [t-Stochastic Neighbor Embedding](https://lvdmaaten.github.io/tsne/) is a method of visualizing very high-dimensional data in 2 or 3 dimensions, that is now ubiquitiously used in data analysis across disciplines. The standard implementation allows visualization of a single feature space. We extend t-SNE to multiple feature spaces that could have an associated graph structure. That is, every data-point exists in multiple spaces, and all the data points are related in one or more graph structures. This extension is very useful since the generic graph structure can encode interesting domain knowledge that guides data visualization in the low-D space.
 
-slides | code | video
+slides | video | code
 
 ### iWMMM
 <img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_iwmmm.jpg">
@@ -74,19 +74,21 @@ A principled approach of defining biological networks that evolve
 <img vspace="10" hspace="10" align="left" width="150" height="110" src="/images/thumb_maldi.jpg">
 The purpose of this project is to identify *Mycobacterium tuberculosis* within biological fluids, particularly human urine, for use as a diagnostic. We currently have extracted pathogen from solution using FcMBL magnetic nanobead technology. The captured material is then analyzed using matrix-assisted laser deionization time-of-flight/time-of-flight [(MALDI-TOF/TOF)](https://en.wikipedia.org/wiki/Matrix-assisted_laser_desorption/ionization) tandem mass spectrometry. This produces a series of peaks specifying the mass-to-charge ratios of the sample of interest. Peak libraries exclusive to several strains of *M. tuberculosis* as well as other microbes including *Staphylococcus aureus* and *Candida albicans* have been assembled. We created a probabilistic model from these libraries in order to identify a pathogen from an unknown sample.
 
-webapp | code
+pdf | webapp | code
 
-<img vspace="10" hspace="10" align="left" width="150" height="220" src="/images/thumb_apoptosis.jpg">
 ### Game of Apoptosis (You Live or You Die)
+<img vspace="10" hspace="10" align="left" width="150" height="220" src="/images/thumb_apoptosis.jpg">
 [Apoptosis](https://en.wikipedia.org/wiki/Apoptosis) refers to one of the many biochemical process that take place inside a cell. Known as "programmed cell death", it leads to fatal changes in the cell such as decay and DNA fragmentation. It is a highly controlled and regulated process, whose understanding can throw light on critical diseases such as cancer (under-regulated apoptosis leads to cell proliferation) and atrophy (over-regulated apoptosis leads to excessive cell death). There are multiple ways to understand regulatory networks, such as using ordinary differential equations, or using graphical methods like Bayesian and Boolean networks. The latter capture basic activating/inhibitory relationship between genes being in an on-off state (0/1, thus Boolean). We analyze one such Boolean model given by [Mai et al. (2009)](https://www.ncbi.nlm.nih.gov/pubmed/19422837), devise metrics of studying the irreversibility of apoptosis, and improve the analysis of which initial cell states are more likely to lead to apoptosis.
 
 slides | code
 
 ## Human Body
 
-<img vspace="10" hspace="10" align="left" width="150" height="130" src="/images/thumb_abbie.jpg">
 ### Project Abbie
-Analysis of breathing waveforms for preemptive prediction of an asthma attack
+<img vspace="10" hspace="10" align="left" width="150" height="130" src="/images/thumb_abbie.jpg">
+[Project Abbie](https://wyss.harvard.edu/technology/project-abbie/)
+
+pdf | slides 
 
 # Computation for Cognition
 
