@@ -34,7 +34,9 @@ pdf | slides | code
 
 ### Hierarchical Ensemble Classifier
 <img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_hierarchicalensemble.jpg">
+Many multi-classification problems have [multiple output labels](https://en.wikipedia.org/wiki/Multi-label_classification), wherein the same feature space has more than one output labels. The classification problem might be "easier" for some labels over others. With that intuition in mind, we develop a hierarchical metaclassifier which conditions single-label classifiers at lower levels on the class predicted for labels at the upper levels. That is, more difficult classification problems are conditioned over the easier ones. This flexible model can use any off-the-shelf multi-class single-label classifier at each of the levels. We test our algorithm on a two-label multi(2x4)-class problem of predicting the tolerance and pathogen of infection of a cohort of patients.
 
+pdf | slides | code
 
 # Computation for Biology
 
@@ -68,13 +70,15 @@ A principled approach of defining biological networks that evolve
 
 ## Biological Cells
 
+### Project MALDI for Diagnosis
+<img vspace="10" hspace="10" align="left" width="150" height="110" src="/images/thumb_maldi.jpg">
+The purpose of this project is to identify *Mycobacterium tuberculosis* within biological fluids, particularly human urine, for use as a diagnostic. We currently have extracted pathogen from solution using FcMBL magnetic nanobead technology. The captured material is then analyzed using matrix-assisted laser deionization time-of-flight/time-of-flight (MALDI-TOF/TOF) tandem mass spectrometry. This produces a series of peaks specifying the mass-to-charge ratios of the sample of interest. Peak libraries exclusive to several strains of *M. tuberculosis* as well as other microbes including *Staphylococcus aureus* and *Candida albicans* have been assembled. We created a probabilistic model from these libraries in order to identify a pathogen from an unknown sample.
+
+webapp | code
+
 <img vspace="10" hspace="10" align="left" width="150" height="220" src="/images/thumb_apoptosis.jpg">
 ### Game of Apoptosis (You Live or You Die)
 A simulation of a Boolean network model of programmed cell death
-
-<img vspace="10" hspace="10" align="left" width="150" height="110" src="/images/thumb_maldi.jpg">
-### Project MALDI for Diagnosis
-A probabilistic model for detection of infectious pathogens
 
 ## Human Body
 
