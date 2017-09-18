@@ -16,6 +16,8 @@ I believe computation is a vital tool for understanding things at all levels of 
 ![Hierarchical Organization of the World](/images/organization_of_the_world.jpg)
 *Hierarchical Organization of the World*
 
+Notice that there is a lot of shared structure of problems at various levels of the hierarchy, for instance the prevalance of graph structures at the biological, cognitive and societal levels. This pattern, when abstracted out, is precisely what permits the use of computation at every organizational level.
+
 # Computation Core
 
 ### X-t-SNE
@@ -24,12 +26,15 @@ I believe computation is a vital tool for understanding things at all levels of 
 
 pres | code | video
 
-<img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_iwmmm.jpg">
 ### iWMMM
-Infinitely Warped Multimodal Mixture Models for clustering across multiple feature spaces
+<img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_iwmmm.jpg">
+[Gaussian mixture models](https://en.wikipedia.org/wiki/Mixture_model#Gaussian_mixture_model)are popular for clustering problems, where every cluster is assumed to be generated from a Gaussian distribution in the feature space. Placing a Dirichlet process prior on this space allows us to also automatically discover the number of clusters in the feature space, known as [infinite Gaussian mixture models](https://www.seas.harvard.edu/courses/cs281/papers/rasmussen-1999a.pdf). However, the assumption of a Gaussian shaped cluster could be flawed. Instead, one can assume the feature space to be the output of a mapping from a latent space, where the Gaussian assumption might hold. Assuming a Gaussian process mapping between the latent and output spaces allows us to cluster arbitrarily warped clusters, called the [infinite warped mixture model](https://arxiv.org/pdf/1206.1846.pdf). We extend this approach to when we have multiple output feature spaces, assuming each to come from an independent Gaussian process from the same latent space.
 
-<img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_hierarchicalensemble.jpg">
+pdf | pres | code
+
 ### Hierarchical Ensemble Classifier
+<img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_hierarchicalensemble.jpg">
+
 
 # Computation for Biology
 
