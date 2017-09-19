@@ -128,12 +128,15 @@ Extending a Bayesian model of how humans learn forms of structures of real-life 
 
 ## Environment
 
-<img vspace="10" hspace="10" align="left" width="150" height="130" src="/images/thumb_plankton.jpg">
 ### Plankton and Ocean Health
+<img vspace="10" hspace="10" align="left" width="150" height="130" src="/images/thumb_plankton.jpg">
+Born out of a Kaggle competition, classifying ocean plankton is an important step to be able to quantify the health of oceans. This is essentially a large multi-class problem, with close to 120 classes of plankton to be classified, with highly skewed low-resolution image data. We apply a library of image processing techniques which can characterise the shape of one plankton from another: shape descriptors (circularity constant, Hu moments), orientation descriptors (Gabor filtered data, HoG vectors), feature descriptors (SIFT), and information descriptors (Fourier analysis). We follow this by a library of machine learning techniques, from support vector machines, to random forests, to neural networks. Taking inspiration from the biological domain, we created hierarchically stacked classifiers mimicking the phylogeny tree structure of plankton classes. This increased accuracies on test data, from as low as 14% on a standard SVM, to as high as 82% on stacked SVMs.
+
+slides | code
 
 ## Society
 
-### "Rationality" in Economics
+### Rationality in Economics
 <img vspace="10" hspace="10" align="left" width="150" height="140" src="/images/thumb_rationalityeconomics.jpg">
 The most foundational assumption in all of microeconomic theory is that of rationality: *Homo economicus* is an agent who is actuated only by self-interest. But there has been a lot of criticism for this key assumption, with counterexamples in the form of [tragedy of the commons](https://en.wikipedia.org/wiki/Tragedy_of_the_commons), and Sen's [Liberal Paradox](https://en.wikipedia.org/wiki/Liberal_paradox). We explore the "rationality" of this human economic agent, motivated by Daniel Hausman's anthology of essays ["Philosophy of Economics"](https://books.google.com/books/about/The_Philosophy_of_Economics.html?id=1S5GraRCFsgC) wherein he urges economists to not trust in the success of economic theories just because they seem to work, but to "look under the hood". We look at arguments by Hirschman (against parsimony), Gneezy & Rustichini (against ceteris paribus) and Benabou & Tirole (for inclusion of social norms). Sen's seminal paper, [Rational Fools](http://omega.cc.umb.edu/~pubpol/documents/Rationalfools--Sen.pdf) captures a similar sentiment into the idea of meta-preferences over usual preferences, ranked by laws and norms of the society. We propose an alternative look at economic theory, wherein theory is not founded on irrational assumptions of rationality. Rather, it is a constantly updated set of theories, driven by a previous iteration of policy making and public reaction.
 
