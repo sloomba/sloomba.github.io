@@ -21,9 +21,7 @@ There is a lot of shared structure of problems at various levels of the hierarch
 # Computation Core
 
 ### X-t-SNE
-
 *Data visualization of multiple high-D spaces with associated graph structures*
-
 <img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_xtsne.jpg">
 
 [t-Stochastic Neighbor Embedding](https://lvdmaaten.github.io/tsne/) is a method of visualizing very high-dimensional data in 2 or 3 dimensions, that is now ubiquitiously used in data analysis across disciplines. The standard implementation allows visualization of a single feature space. We extend t-SNE to multiple feature spaces that could have an associated graph structure. That is, every data-point exists in multiple spaces, and all the data points are related in one or more graph structures. This extension is very useful since the generic graph structure can encode interesting domain knowledge that guides data visualization in the low-D space.
