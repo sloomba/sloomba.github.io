@@ -133,8 +133,14 @@ Extending a Bayesian model of how humans learn forms of structures of real-life 
 
 ## Society
 
-<img vspace="10" hspace="10" align="left" width="150" height="140" src="/images/thumb_rationalityeconomics.jpg">
 ### "Rationality" in Economics
+<img vspace="10" hspace="10" align="left" width="150" height="140" src="/images/thumb_rationalityeconomics.jpg">
+The most foundational assumption in all of microeconomic theory is that of rationality: *Homo economicus* is an agent who is actuated only by self-interest. But there has been a lot of criticism for this key assumption, with counterexamples in the form of [tragedy of the commons](https://en.wikipedia.org/wiki/Tragedy_of_the_commons), and Sen's [Liberal Paradox](https://en.wikipedia.org/wiki/Liberal_paradox). We explore the "rationality" of this human economic agent, motivated by Daniel Hausman's anthology of essays ["Philosophy of Economics"](https://books.google.com/books/about/The_Philosophy_of_Economics.html?id=1S5GraRCFsgC) wherein he urges economists to not trust in the success of economic theories just because they seem to work, but to "look under the hood". We look at arguments by Hirschman (against parsimony), Gneezy & Rustichini (against ceteris paribus) and Benabou & Tirole (for inclusion of social norms). Sen's seminal paper, [Rational Fools](http://omega.cc.umb.edu/~pubpol/documents/Rationalfools--Sen.pdf) captures a similar sentiment into the idea of meta-preferences over usual preferences, ranked by laws and norms of the society. We propose an alternative look at economic theory, wherein theory is not founded on irrational assumptions of rationality. Rather, it is a constantly updated set of theories, driven by a previous iteration of policy making and public reaction.
 
+pdf | slides
+
+### Morality of Unsettling Interventions
 <img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_unsettlement.jpg">
-### Unsettlment in Human Interactions
+Unsettlement of our personal fundamental beliefs is a common occurrence in human interactions that allows people to update their beliefs about the world. This interventionary process can eventually define collective choice of a people. But it also places an interesting moral dilemma on the participants of the intervention: "is it *right* to unsettle someone else's core beliefs?" and "should I *let* myself get unsettled?" We present an abstraction of the cognitive machinery of the agents involved in this moral problem, and offer a way to resolve this dilemma for both the unsettler and the one unsettled.
+
+pdf | slides
