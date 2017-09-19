@@ -44,21 +44,24 @@ pdf | slides | code
 
 ### protein2vec
 <img vspace="10" hspace="10" align="left" width="150" height="80" src="/images/thumb_protein2vec.jpg">
-Defining a vector space that embeds peptide sequences for solving proteomics problems
+We are still far from solving a lot of problems in proteomics, may it be predicting protein folding structure, or their binding characterization, which are key to fully understanding how proteins participate in key biochemical reactions that define life as we know it. In collaboration with the [Church group](http://arep.med.harvard.edu/gmc/), we define an unsupervised problem of embedding protein sequences into an appropriate vector space, so that we can apply statistical machine learning for our supervised problem of interest. We are building a seq2seq model of peptide sequences, based on the [RNN encoder-decoder](https://arxiv.org/pdf/1406.1078.pdf) and Google's attention-based [Transformer](https://arxiv.org/pdf/1706.03762.pdf) model. Besides encoding the primary sequence, we would concomitantly encode relevant physicochemical properties of amino acids that can produce more biologically meaningful embeddings.
 
 ### Project ConDDR
 <img vspace="10" hspace="10" align="left" width="150" height="110" src="/images/thumb_conddr.jpg">
-An information-retrieval approach to the drug repurposing problem
+Thousands of medically approved drugs are currently used to treat various diseases, but they can have complex interactions with more than one receptor proteins. That is, the same drug can interact with multiple receptors and thus be *repurposed* for treating a different disease. Moreover, their combinations can be given as so-called "drug cocktails" to improve a treatment's efficacy, as is now the norm in cancer therapies. With this motivation in mind, we extracted an ontology of drug-gene interactions. We employ techniques of information retrieval on this interaction matrix, by treating it as a document-word matrix and genes-of-interest as a query vector. We successfully "rediscover" conventional drugs for diseases such as TB, and discover novel ones for other bacterial infections.
 
 ## Biomolecular Networks
 
 ### Project THoR
 <img vspace="10" hspace="10" align="left" width="150" height="220" src="/images/thumb_crom3top.jpg">
-Developing a probabilistic model of tolerance to pathogens for Technologies for Host Resilience
+Given that most bacteria are becoming resistant to antibiotics, there is an urgent need to flip our practice of diagnosing and treating pathogen infections. Instead of exterminating the pathogen, we must start looking at ways to make a host "tolerant" to the infection, that is, stay asymptomatic despite infection, and develop Technologies for Host Resilience (THoR). For that, we look at the problem of predicting tolerance, and unearthing the
+underlying biological mechanisms of tolerance. We define a highly generalized Bayesian probabilistic framework called CROM3TOP (Cross-species Multimodal Modular Model of Tolerance to Pathogens) which can feed on (possibly temporal) multi-omics data across various host and pathogen species, to develop a rich ontology which not only differentiates between states of tolerance and sensitivity, but also provides a valuable interface for biologists to ask arbitrary queries of interest. This would help discover novel host-pathogen mechanisms, and hasten the design of gene therapies and other medical interventions.
+
+pdf | code
 
 ### Project SD2
 <img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_sd2.jpg">
-An automated pipeline for Synergestic Discovery and Design of biological circuits
+With the recent advent of synthetic biology, we are now engineering biological circuits to perform functions of our choosing, may it be doing arithmetic or logic operations or diagnosing Zika. Since the sapce of functional circuits is huge, it has become increasingly important to automate the process of Synthetic Discovery and Design (SD2) of biological circuits. By making use of elementary logical motifs as the basic constituent of any complex function, we propose a novel algorithmic pipeline that goes from large-scale experimental data on biomolecular abundance in a system, to network structures (via network inference methods), to functional logical motifs (via graph embeddings such as node2vec and holographic embeddings), and eventually to operable and viable biological ciruits (via Bayesian model selection over biokentic ODE models). This would allow us to generate novel and testable scientific hypotheses for biochemsist to test in the lab, and will thus generate a new cycle of experimental data that can be iteratively used to refine our models.
 
 ### Causal Computational Models for GRNs
 <img vspace="10" hspace="10" align="left" width="150" height="80" src="/images/thumb_causalgrn.jpg">
@@ -140,11 +143,18 @@ Wisdom of Crowds refers to the idea that the aggregated opinion of a crowd of no
 
 ### Pedagogy in the Contemporary World
 
-#### MMToC
+#### Multimodal Table of Content for Videos
 <img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_mmtoc.jpg">
+The amount of instructional videos available online is growing steadily. A major bottleneck in their widespread usage is the lack of tools for easy consumption of these videos. At XRCI, we developed MMToC (Multimodal Method for Table of Content), that automatically generates a table of content for a given instructional video and enables textbook-like efficient navigation through the video. MMToC quantifies word saliency for visual words extracted from the slides and for spoken words obtained from the lecture transcript. These saliency scores are combined using a segmentation algorithm to identify likely breakpoints in the video where the topic has changed. 
+
+[paper](http://dl.acm.org/citation.cfm?id=2879472) |
 
 #### Video Lecture Sequencing
 <img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_videosequencing.jpg">
+With a plethora of video lectures available for learning various topics, the cognitive burden on a new student learner can be very high in terms of (a) selecting the right video lectures to view for learning a topic of interest, and (b) charting out an appropriate video-based curriculum. We created an algorithm which extracts key concepts from video lectures, figures out an appropriate sequence of video lectures that respects the learning trajectory from pre-requisite concepts to learnt concepts, and charts out the shortest curriculum for a given learning goal while minimizing the cognitive burden on the learner.
+
+[pdf]
+
 
 ## Environment
 
