@@ -63,7 +63,7 @@ Thousands of medically approved drugs are currently used to treat various diseas
 ## Biomolecular Networks
 
 ### Project THoR
-*Developing a model of tolerance to pathogens in multiple host species*
+*Developing a probabilistic model of tolerance to pathogens in multiple host species*
 
 <img vspace="10" hspace="10" align="left" width="150" height="220" src="/images/thumb_crom3top.jpg">
 Given that most bacteria are becoming resistant to antibiotics, there is an urgent need to flip our practice of diagnosing and treating pathogen infections. Instead of exterminating the pathogen, we must start looking at ways to make a host "tolerant" to the infection, that is, stay asymptomatic despite infection, and develop Technologies for Host Resilience (THoR). For that, we look at the problem of predicting tolerance, and unearthing the underlying biological mechanisms of tolerance. We define a highly generalized Bayesian probabilistic framework called CROM3TOP (Cross-species Multimodal Modular Model of Tolerance to Pathogens) which can feed on (possibly temporal) [multi-omics](https://en.wikipedia.org/wiki/Multiomics) data across various host and pathogen species, to develop a rich ontology which not only differentiates between states of tolerance and sensitivity, but also provides a valuable interface for biologists to ask arbitrary queries of interest. This would help discover novel host-pathogen mechanisms, and hasten the design of gene therapies and other medical interventions.
@@ -71,7 +71,7 @@ Given that most bacteria are becoming resistant to antibiotics, there is an urge
 pdf | code
 
 ### Project SD2
-*Automating the experiment --> discover circuits --> novel hypothesis --> design circuits --> test pipeline of synthetic biology*
+*Automating the experiment --> discover-circuits --> design-circuits --> test pipeline of synthetic biology*
 
 <img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_sd2.jpg">
 With the recent advent of synthetic biology, we are now engineering [biological circuits](https://en.wikipedia.org/wiki/Synthetic_biological_circuit) to perform functions of our choosing, may it be doing arithmetic operations or [diagnosing Zika](http://www.cell.com/cell/abstract/S0092-8674(16)30505-0). Since the sapce of functional circuits is huge, it has become increasingly important to automate the process of Synthetic Discovery and Design (SD2) of biological circuits. By making use of elementary logical motifs as the basic constituent of any complex function, we propose a novel algorithmic pipeline that goes from large-scale experimental data on biomolecular abundance in a system, to network structures (via network inference methods), to functional logical motifs (via graph embeddings such as [node2vec](https://arxiv.org/pdf/1607.00653.pdf) and [holographic embeddings](https://arxiv.org/pdf/1510.04935.pdf)), and eventually to operable and viable biological ciruits (via Bayesian model selection over [biokentic ODE models](https://en.wikipedia.org/wiki/Enzyme_kinetics)). This would allow us to generate novel and testable scientific hypotheses for biologists to test in the lab, and will thus create a new cycle of experimental data that can be iteratively used to refine our models.
@@ -151,7 +151,7 @@ Given the resource constraints that human cognitive systems operate under, how d
 pdf | slides
 
 ### Complexity of Living and Biological Systems
-*A commentary on the potential limits to understanding complex biological systems, from a computational complexity POV*
+*On the limits to understanding complex systems, from a computational complexity POV*
 
 <img vspace="10" hspace="10" align="left" width="150" height="130" src="/images/thumb_complexitylivingbiosystems.jpg">
 The central objective of recent strides taken by biology and biochemistry has been to simplify the complexity of biological systems, and of life itself. The theories and models we propose, and the questions we try to answer, are subject to the current limits of our mathematics and computational abilities. There are, of course, various problems in computer science that have been deemed unsolvable (like the [Halting Problem](https://en.wikipedia.org/wiki/Halting_problem)), or computationally intensive (like the [Maximum Independent Set Problem](https://en.wikipedia.org/wiki/Independent_set_(graph_theory)#Maximum_independent_sets_and_maximum_cliques) which is [NP hard](https://en.wikipedia.org/wiki/NP-hardness)), but can similar limits be imposed on problems in biology? Our intuition tells us yes, and recent advances in the theory of computation, and the principles of [Computational Equivalence](http://mathworld.wolfram.com/PrincipleofComputationalEquivalence.html) and [Computational Irreducibility](http://mathworld.wolfram.com/ComputationalIrreducibility.html) are in overwhelming support of this intuition. We follow these principles and view systems under the lens of computational pragmatism, to uncover the possible limits imposed on our understanding of life, the way we know it.
@@ -181,7 +181,7 @@ The amount of instructional videos available online is growing steadily. A major
 [paper](http://dl.acm.org/citation.cfm?id=2879472) |
 
 #### Video Lecture Sequencing
-*Automatic creation of a video-based curriculum for a learning goal*
+*Automatic creation of a video-based curriculum for a given learning goal*
 
 <img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_videosequencing.jpg">
 With a plethora of video lectures available for learning various topics, the cognitive burden on a new student learner can be very high in terms of (a) selecting the right video lectures to view for learning a topic of interest, and (b) charting out an appropriate video-based curriculum. We created an algorithm which extracts key concepts from video lectures, figures out an appropriate sequence of video lectures that respects the learning trajectory from pre-requisite concepts to learnt concepts, and charts out the shortest curriculum for a given learning goal while minimizing the cognitive burden on the learner.
@@ -192,7 +192,7 @@ pdf |
 ## Environment
 
 ### Plankton and Ocean Health
-*A novel ML model for the classification of 120 plankton to quantify ocean health*
+*An ML model for classification of 120 plankton to quantify ocean health*
 
 <img vspace="10" hspace="10" align="left" width="150" height="130" src="/images/thumb_plankton.jpg">
 Born out of a Kaggle competition, classifying ocean plankton is an important step to be able to quantify the health of oceans. This is essentially a large multi-class problem, with close to 120 classes of plankton to be classified, with highly skewed low-resolution image data. We apply a library of image processing techniques which can characterise the shape of one plankton from another: shape descriptors ([circularity constant](https://en.wikipedia.org/wiki/Roundness_(object)), [Hu moments](https://en.wikipedia.org/wiki/Image_moment)), orientation descriptors ([Gabor filters](https://en.wikipedia.org/wiki/Gabor_filter), [HoG vectors](https://en.wikipedia.org/wiki/Histogram_of_oriented_gradients)), feature descriptors ([SIFT](https://en.wikipedia.org/wiki/Scale-invariant_feature_transform)), and information descriptors ([Fourier analysis](https://homepages.inf.ed.ac.uk/rbf/HIPR2/fourier.htm)). We follow this by a library of machine learning techniques, from support vector machines, to random forests, to neural networks. Taking inspiration from the biological domain, we created hierarchically stacked classifiers mimicking the phylogeny tree structure of plankton classes. This increased accuracies on test data, from as low as 14% on a standard SVM, to as high as 82% on stacked SVMs.
