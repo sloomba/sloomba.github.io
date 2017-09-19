@@ -42,31 +42,36 @@ pdf | slides | code
 
 ## Biomolecules
 
-<img vspace="10" hspace="10" align="left" width="150" height="80" src="/images/thumb_protein2vec.jpg">
 ### protein2vec
+<img vspace="10" hspace="10" align="left" width="150" height="80" src="/images/thumb_protein2vec.jpg">
 Defining a vector space that embeds peptide sequences for solving proteomics problems
 
-<img vspace="10" hspace="10" align="left" width="150" height="110" src="/images/thumb_conddr.jpg">
 ### Project ConDDR
+<img vspace="10" hspace="10" align="left" width="150" height="110" src="/images/thumb_conddr.jpg">
 An information-retrieval approach to the drug repurposing problem
 
 ## Biomolecular Networks
 
-<img vspace="10" hspace="10" align="left" width="150" height="220" src="/images/thumb_crom3top.jpg">
 ### Project THoR
+<img vspace="10" hspace="10" align="left" width="150" height="220" src="/images/thumb_crom3top.jpg">
 Developing a probabilistic model of tolerance to pathogens for Technologies for Host Resilience
 
-<img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_sd2.jpg">
 ### Project SD2
+<img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_sd2.jpg">
 An automated pipeline for Synergestic Discovery and Design of biological circuits
 
+### Causal Computational Models for GRNs
 <img vspace="10" hspace="10" align="left" width="150" height="80" src="/images/thumb_causalgrn.jpg">
-### Causal GRNs
-A causal computational model for gene regulatory networks
+Gene Regulatory Networks (GRNs) hold the key to understanding and solving many problems in biological sciences, with critical applications in medicine and therapeutics. However, discovering GRNs in the laboratory is a cumbersome and tricky affair,
+since the number of genes and interactions, say in a mammalian cell, are very large. We aim to discover these GRNs computationally, by using gene expression levels as a time-series dataset. We research and employ techniques from probability and information theory, theory of dynamical systems, and graph structure estimation, to establish pairwise causal relations between genes on synthetic datasets. Furthermore, we suggest methods for global estimation of gene networks by using a random-walk based weight propagation algorithm.
 
-<img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_evolvablenetworks.jpg">
+pdf | slides | code
+
 ### Evolvable Networks
-A principled approach of defining biological networks that evolve
+<img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_evolvablenetworks.jpg">
+Biological networks, may they be gene regulatory networks or protein-protein interaction networks, tend to possess certain attributes. They are highly modular, seem to be very robust, and also seem to be scale-free. Thus, one might be tempted to believe that to create instances of biological networks, one must explicate such conditions on a graph. However, we hypothesize that these are merely emergent properties which are not evidently very principled. Rather, a certain sense of "evolvability" (E), combined with "robustness" (R), and some sense of "cost of complexity" (C) levied on the network, seem to be more principled evolutionary factors due to which biological networks might organize themselves. Armed with this intuition, we evolve biological networks by incorporating ERC into a genetic algorithm's objective function. The networks so obtained appear to observe the properties of modularity, scale-freeness and robustness.
+
+slides |
 
 ## Biological Cells
 
@@ -94,37 +99,47 @@ pdf | slides
 
 ## Cellular Signalling
 
-<img vspace="10" hspace="10" align="left" width="150" height="180" src="/images/thumb_eeg.jpg">
 ### Human Motor Control
-A simple analysis of EEG signals for classifying motor commands issued by the brain
+<img vspace="10" hspace="10" align="left" width="150" height="180" src="/images/thumb_eeg.jpg">
+Recent advances in modern brain-imaging techniques have hugely bolstered research in areas of brain sciences and cognitive studies. While they were earlier being used for merely diagnosing brain disorders, they are now being used to generate highly utilitarian bits of data. One such imaging technique is electroencephalography, or EEG, which essentially measures the averaged electrical potential across the human scalp. The motivation behind this project was to develop a computational basis for developing real-time brain controlled actions, such as thought-controlled prosthetic limbs or electronic devices. Can we recover signatures of motor activity, or the thought of motor activity, from the EEG signal? We conduct controlled experiments to collect EEG data. Using techniques from machine learning, we then classify them into three motion states of rest, arm jerk, and thought of arm jerk.
+
+pdf | slides
 
 ## Human Brain
 
-<img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_prototypeexemplar.jpg">
 ### Human Category Learning
-Studying the brain functional lateralization of two popular models of category learning
+<img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_prototypeexemplar.jpg">
+Human cognitive systems rely heavily on how knowledge is represented within these systems. One kind of knowledge, namely the categorical, is ubiquitous in everyday human interaction with the world. Two competing theories of how humans learn and infer from
+category knowledge have been popular in cognitive psychology: the exemplar theory and the prototype theory. Also, like most cognitive functions, category representations have purported to be lateralized in the brain: with the left hemisphere operating under prototype
+conditions, and the right hemisphere operating under exemplar conditions. We explore the hypothesis as to whether category knowledge representation is indeed lateralized in the light of these theories, and if yes, then whether a transfer of control between
+the two gets activated at some epoch of learning. We conduct divided visual field tasks to collect data, and use Bayesian model selection to test our hypothesis.
 
-<img vspace="10" hspace="10" align="left" width="150" height="220" src="/images/thumb_formlearning.jpg">
 ### Human Form Learning
-Extending a Bayesian model of how humans learn forms of structures of real-life entities
+<img vspace="10" hspace="10" align="left" width="150" height="220" src="/images/thumb_formlearning.jpg">
+Given the resource constraints that human cognitive systems operate under, how do adults and children inductively learn from the percepts we encounter? Certainly, there are some heuristics involved in not just our inductive learning, but also in the way we do inference and reasoning. Can we explain away the use of such “shortcuts” by improving current computational cognitive models? This project was an attempt in answering such questions, by taking the work by [Kemp et al. (2008)](http://www.pnas.org/content/105/31/10687.full) on form learning as a neat illustration of some key ideas. We extend their work by stressing on the need to include topology theory (manifold learning) and hierarchical Bayesian modelling, by providing experimental results to support our stance.
 
-<img vspace="10" hspace="10" align="left" width="150" height="130" src="/images/thumb_complexitylivingbiosystems.jpg">
+pdf | slides
+
 ### Complexity of Living and Biological Systems
+<img vspace="10" hspace="10" align="left" width="150" height="130" src="/images/thumb_complexitylivingbiosystems.jpg">
+The central objective of recent strides taken by biology and biochemistry has been to simplify the complexity of biological systems, and of life itself. The theories and models we propose, and the questions we try to answer, are subject to the current limits of our mathematics and computational abilities. There are, of course, various problems in computer science that have been deemed unsolvable (like the Halting Problem), or computationally intensive (like the Maximum Independent Set Problem which is NP hard), but can similar limits be imposed on problems in biology? Our intuition tells us yes, and recent advances in the theory of computation, and the principles of Computational Equivalence and Computational Irreducibility are in overwhelming support of this intuition. We follow these principles and view systems under the lens of computational pragmatism, to uncover the possible limits imposed on our understanding of life, the way we know it.
+
+pdf |
 
 # Computation for Society
 
 ## Social Networks
 
-<img vspace="10" hspace="10" align="left" width="150" height="140" src="/images/thumb_crowds.jpg">
 ### Wisdom of Crowds
+<img vspace="10" hspace="10" align="left" width="150" height="140" src="/images/thumb_crowds.jpg">
 
 ### Pedagogy in the Contemporary World
 
-<img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_mmtoc.jpg">
 #### MMToC
+<img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_mmtoc.jpg">
 
-<img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_videosequencing.jpg">
 #### Video Lecture Sequencing
+<img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_videosequencing.jpg">
 
 ## Environment
 
@@ -144,6 +159,6 @@ pdf | slides
 
 ### Morality of Unsettling Interventions
 <img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_unsettlement.jpg">
-Unsettlement of our personal fundamental beliefs is a common occurrence in human interactions that allows people to update their beliefs about the world. This interventionary process can eventually define collective choice of a people. But it also places an interesting moral dilemma on the participants of the intervention: "is it *right* to unsettle someone else's core beliefs?" and "should I *let* myself get unsettled?" We present an abstraction of the cognitive machinery of the agents involved in this moral problem, and offer a way to resolve this dilemma for both the unsettler and the one unsettled.
+Unsettlement of our personal fundamental beliefs is a common occurrence in human interactions that allows people to update their beliefs about the world. This interventionary process can eventually define collective choice of a people. But it also places an interesting moral dilemma on the participants of the intervention: "is it *right* to unsettle someone else's core beliefs?" and "should I *let* myself get unsettled?" We present an abstraction of the cognitive machinery of the agents involved in this moral problem, the way they represent knowledge and beliefs, and offer a way to resolve this dilemma for both the unsettler and the one unsettled.
 
 pdf | slides
