@@ -114,6 +114,8 @@ category knowledge have been popular in cognitive psychology: the exemplar theor
 conditions, and the right hemisphere operating under exemplar conditions. We explore the hypothesis as to whether category knowledge representation is indeed lateralized in the light of these theories, and if yes, then whether a transfer of control between
 the two gets activated at some epoch of learning. We conduct divided visual field tasks to collect data, and use Bayesian model selection to test our hypothesis.
 
+pdf | slides | code
+
 ### Human Form Learning
 <img vspace="10" hspace="10" align="left" width="150" height="220" src="/images/thumb_formlearning.jpg">
 Given the resource constraints that human cognitive systems operate under, how do adults and children inductively learn from the percepts we encounter? Certainly, there are some heuristics involved in not just our inductive learning, but also in the way we do inference and reasoning. Can we explain away the use of such “shortcuts” by improving current computational cognitive models? This project was an attempt in answering such questions, by taking the work by [Kemp et al. (2008)](http://www.pnas.org/content/105/31/10687.full) on form learning as a neat illustration of some key ideas. We extend their work by stressing on the need to include topology theory (manifold learning) and hierarchical Bayesian modelling, by providing experimental results to support our stance.
@@ -132,6 +134,9 @@ pdf |
 
 ### Wisdom of Crowds
 <img vspace="10" hspace="10" align="left" width="150" height="140" src="/images/thumb_crowds.jpg">
+Wisdom of Crowds refers to the idea that the aggregated opinion of a crowd of non-experts could be as close or even better than the estimate of an expert. People from across disciplines, cognitive scientists, social scientists, computer scientists and mathematicians, are trying hard to test the validity of this conjecture. In the hopes of elucidating conditions under which it holds well, areas where this can be applied, and the relation of an individual's cognitive abilities to the judgement of the crowd. As part of a large international team of students, we developed a large-scale online game to systematically investigate the wisdom of crowds. 
+
+[paper](http://dl.acm.org/citation.cfm?id=2815725) | [webapp](https://wisdomofcrowds.stanford.edu/web/index.php#/)
 
 ### Pedagogy in the Contemporary World
 
