@@ -71,7 +71,7 @@ Given that most bacteria are becoming resistant to antibiotics, there is an urge
 [pdf](/docs/pdf_crom3top.pdf) | code
 
 ### Project SD2
-*Automating the experiment --> discover-circuits --> design-circuits --> test pipeline of synthetic biology*
+*Automating the __experiment --> discover & design circuits --> test__ pipeline of synthetic biology*
 
 <img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_sd2.jpg">
 With the recent advent of synthetic biology, we are now engineering [biological circuits](https://en.wikipedia.org/wiki/Synthetic_biological_circuit) to perform functions of our choosing, may it be doing arithmetic operations or [diagnosing Zika](http://www.cell.com/cell/abstract/S0092-8674(16)30505-0). Since the sapce of functional circuits is huge, it has become increasingly important to automate the process of Synthetic Discovery and Design (SD2) of biological circuits. By making use of elementary logical motifs as the basic constituent of any complex function, we propose a novel algorithmic pipeline that goes from large-scale experimental data on biomolecular abundance in a system, to network structures (via network inference methods), to functional logical motifs (via graph embeddings such as [node2vec](https://arxiv.org/pdf/1607.00653.pdf) and [holographic embeddings](https://arxiv.org/pdf/1510.04935.pdf)), and eventually to operable and viable biological ciruits (via Bayesian model selection over [biokentic ODE models](https://en.wikipedia.org/wiki/Enzyme_kinetics)). This would allow us to generate novel and testable scientific hypotheses for biologists to test in the lab, and will thus create a new cycle of experimental data that can be iteratively used to refine our models.
