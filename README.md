@@ -130,7 +130,7 @@ pdf | [slides](/docs/slides_abbie.pdf)
 <img vspace="10" hspace="10" align="left" width="150" height="180" src="/images/thumb_eeg.jpg">
 Recent advances in modern brain-imaging techniques have hugely bolstered research in areas of brain sciences and cognitive studies. While they were earlier being used for merely diagnosing brain disorders, they are now being used to generate highly utilitarian bits of data. One such imaging technique is [EEG](https://en.wikipedia.org/wiki/Electroencephalography), which essentially measures the averaged electrical potential across the human scalp. The motivation behind this project was to develop a computational basis for developing real-time brain controlled actions, such as thought-controlled prosthetic limbs or electronic devices. Can we recover signatures of motor activity, or the thought of motor activity, from the EEG signal? We conducedt controlled experiments to collect EEG data. Using techniques from machine learning, we then classify them into three motion states of rest, arm jerk, and thought of arm jerk.
 
-pdf | slides
+[pdf](/docs/pdf_eeg.pdf) | [poster](/docs/poster_eeg.pdf) | [slides](/docs/slides_eeg.pdf)
 
 ## Human Brain
 
@@ -168,7 +168,7 @@ The central objective of recent strides taken by biology and biochemistry has be
 <img vspace="10" hspace="10" align="left" width="150" height="140" src="/images/thumb_crowds.jpg">
 [Wisdom of Crowds](https://en.wikipedia.org/wiki/Wisdom_of_the_crowd) refers to the idea that the aggregated opinion of a crowd of non-experts could be as close or even better than the estimate of an expert. People from across disciplines, cognitive scientists, social scientists, computer scientists and mathematicians, are trying hard to test the validity of this conjecture. In the hopes of elucidating conditions under which it holds well, areas where this can be applied, and the relation of an individual's cognitive abilities to the judgement of the crowd. As part of a large international team of students, we developed a large-scale online game to systematically investigate the wisdom of crowds. 
 
-[paper](http://dl.acm.org/citation.cfm?id=2815725) | [webapp](https://wisdomofcrowds.stanford.edu/web/index.php#/)
+[paper](http://dl.acm.org/citation.cfm?id=2815725) | [pdf] (/docs/poster_crowd_uist.pdf) | [webapp](https://wisdomofcrowds.stanford.edu/web/index.php#/)
 
 ### Pedagogy in the Contemporary World
 
@@ -178,7 +178,7 @@ The central objective of recent strides taken by biology and biochemistry has be
 <img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_mmtoc.jpg">
 The amount of instructional videos available online is growing steadily. A major bottleneck in their widespread usage is the lack of tools for easy consumption of these videos. We developed MMToC (Multimodal Method for Table of Content), that automatically generates a table of content for a given instructional video and enables textbook-like efficient navigation through the video. MMToC quantifies word saliency for visual words extracted from the slides and for spoken words obtained from the lecture transcript. These saliency scores are combined using a segmentation algorithm to identify likely breakpoints in the video where the topic has changed. 
 
-[paper](http://dl.acm.org/citation.cfm?id=2879472) |
+[paper](http://dl.acm.org/citation.cfm?id=2879472) | [pdf](/docs/paper_mmtoc_icdm.pdf)
 
 #### Video Lecture Sequencing
 *Automatic creation of a video-based curriculum for a given learning goal*
@@ -186,7 +186,7 @@ The amount of instructional videos available online is growing steadily. A major
 <img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_videosequencing.jpg">
 With a plethora of video lectures available for learning various topics, the cognitive burden on a new student learner can be very high in terms of (a) selecting the right video lectures to view for learning a topic of interest, and (b) charting out an appropriate video-based curriculum. We created an algorithm which extracts key concepts from video lectures, figures out an appropriate sequence of video lectures that respects the learning trajectory from pre-requisite concepts to learnt concepts, and charts out the shortest curriculum for a given learning goal while minimizing the cognitive burden on the learner.
 
-pdf |
+[pdf](/docs/poster_videosequencing.pdf) |
 
 
 ## Environment
@@ -207,7 +207,7 @@ Born out of a Kaggle competition, classifying ocean plankton is an important ste
 <img vspace="10" hspace="10" align="left" width="150" height="140" src="/images/thumb_rationalityeconomics.jpg">
 The most foundational assumption in all of microeconomic theory is that of rationality: *Homo economicus* is an agent who is actuated only by self-interest. But there has been a lot of criticism for this key assumption, with counterexamples in the form of [tragedy of the commons](https://en.wikipedia.org/wiki/Tragedy_of_the_commons), and Sen's [Liberal Paradox](https://en.wikipedia.org/wiki/Liberal_paradox). We explore the "rationality" of this human economic agent, motivated by Daniel Hausman's anthology of essays ["Philosophy of Economics"](https://books.google.com/books/about/The_Philosophy_of_Economics.html?id=1S5GraRCFsgC) wherein he urges economists to not trust in the success of economic theories just because they seem to work, but to "look under the hood". We look at arguments by Hirschman (against parsimony), Gneezy & Rustichini (against ceteris paribus) and Benabou & Tirole (for inclusion of social norms). Sen's seminal paper, [Rational Fools](http://omega.cc.umb.edu/~pubpol/documents/Rationalfools--Sen.pdf) captures a similar sentiment into the idea of meta-preferences over usual preferences, ranked by laws and norms of the society. We propose an alternative look at economic theory, wherein theory is not founded on irrational assumptions of rationality. Rather, it is a constantly updated set of theories, driven by a previous iteration of policy making and public reaction.
 
-[pdf](/docs/pdf_rationalityeconomics.pdf) | [slides](/docs/slides_rationalityeconomics.pdf)
+[pdf](/docs/pdf_rationalityeconomics.pdf) | [slides](/docs/slides_rationalityeconomics.pdf) | [readings](/docs/readinglist_rationalityeconomics.pdf)
 
 ### Morality of Unsettling Interventions
 *A cognitive solution to the moral problem of unsettlement of core beliefs*
