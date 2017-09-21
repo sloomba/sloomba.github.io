@@ -168,7 +168,7 @@ The central objective of recent strides taken by biology and biochemistry has be
 <img vspace="10" hspace="10" align="left" width="150" height="140" src="/images/thumb_crowds.jpg">
 [Wisdom of Crowds](https://en.wikipedia.org/wiki/Wisdom_of_the_crowd) refers to the idea that the aggregated opinion of a crowd of non-experts could be as close or even better than the estimate of an expert. People from across disciplines, cognitive scientists, social scientists, computer scientists and mathematicians, are trying hard to test the validity of this conjecture. In the hopes of elucidating conditions under which it holds well, areas where this can be applied, and the relation of an individual's cognitive abilities to the judgement of the crowd. As part of a large international team of students, we developed a large-scale online game to systematically investigate the wisdom of crowds. 
 
-[paper](http://dl.acm.org/citation.cfm?id=2815725) | [pdf] (/docs/paper_crowds_uist.pdf) | [webapp](https://wisdomofcrowds.stanford.edu/web/index.php#/)
+[paper](http://dl.acm.org/citation.cfm?id=2815725) | [pdf](/docs/paper_crowds_uist.pdf) | [webapp](https://wisdomofcrowds.stanford.edu/web/index.php#/)
 
 ### Pedagogy in the Contemporary World
 
