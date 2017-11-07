@@ -26,7 +26,7 @@ There is a lot of shared structure of problems at various levels of the hierarch
 <img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_xtsne.jpg">
 [t-Stochastic Neighbor Embedding](https://lvdmaaten.github.io/tsne/) is a method of visualizing very high-dimensional data in 2 or 3 dimensions, that is now ubiquitiously used in data analysis across disciplines. The standard implementation allows visualization of a single feature space. We extend t-SNE to multiple feature spaces that could have an associated graph structure. That is, every data-point exists in multiple spaces, and all the data points are related in one or more graph structures. This extension is very useful since the generic graph structure can encode interesting domain knowledge that guides data visualization in the low-D space.
 
-[slides](/docs/slides_xtsne.pdf) | [videos](https://www.youtube.com/watch?v=sK9OH7sdr-I&list=PLxklWlJrLiDeQO139569ouWCGY8RNeJkM&index=1) | code
+[pdf](/docs/pdf_xtsne.pdf) | [slides](/docs/slides_xtsne.pdf) | [videos](https://www.youtube.com/watch?v=sK9OH7sdr-I&list=PLxklWlJrLiDeQO139569ouWCGY8RNeJkM&index=1) | code
 
 ### iWMMM
 *Multimodal clustering of data by stacking DP and multioutput-GP priors*
@@ -76,6 +76,8 @@ Given that most bacteria are becoming resistant to antibiotics, there is an urge
 <img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_sd2.jpg">
 With the recent advent of synthetic biology, we are now engineering [biological circuits](https://en.wikipedia.org/wiki/Synthetic_biological_circuit) to perform functions of our choosing, may it be doing [arithmetic operations](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2690711/) or [diagnosing Zika](http://www.cell.com/cell/abstract/S0092-8674(16)30505-0). Since the space of functional circuits is huge, it has become increasingly important to automate the process of Synthetic Discovery and Design (SD2) of biological circuits. By making use of elementary logical motifs as the basic constituent of any complex function, we propose a novel algorithmic pipeline that goes from large-scale experimental data on biomolecular abundance in a system, to network structures (via network inference methods), to functional logical motifs (via graph embeddings such as [node2vec](https://arxiv.org/pdf/1607.00653.pdf) and [holographic embeddings](https://arxiv.org/pdf/1510.04935.pdf)), and eventually to operable and viable biological ciruits (via Bayesian model selection over [biokentic ODE models](https://en.wikipedia.org/wiki/Enzyme_kinetics)). This would allow us to generate novel and testable scientific hypotheses for biologists to test in the lab, and will thus create a new cycle of experimental data that can be iteratively used to refine our models.
 
+[code](https://github.com/sloomba/sd2) |
+
 ### Causal Computational Models for GRNs
 *Developiong a causal computational model for gene regulatory networks*
 
@@ -118,7 +120,7 @@ pdf | [webapp](https://sloomba.shinyapps.io/maldi/)
 <img vspace="10" hspace="10" align="left" width="150" height="130" src="/images/thumb_abbie.jpg">
 Asthma is a common inflammatory disease of lung airways which affects millions of people across the world. An asthmatic fit can be triggered by allergens and is accompanied by symptoms such as wheezing, shortness of breath and chest spasms. A timely prediction of the fit can allow an asthmatic to seek help and administer a response on time, which could be life saving. As part of [Project Abbie](https://wyss.harvard.edu/technology/project-abbie/), in collaboration with [Boston Children's Hospital](http://www.childrenshospital.org/), we collected breathing waveform data of children from the beginning to end of an asthmatic fit, and the corresponding severity score through this timecourse. We extracted a [multifractal spectrum representation](https://en.wikipedia.org/wiki/Multifractal_system) of the signal; hypothesized and validated that the onset of an attack is accompanied by a change from mono to multifracticality of the breathing waveform. We built a simple 2-class model to predict a high/low severity score of an asthmatic over a 10-second time window, which can allow real time monitoring of patients.
 
-pdf | [slides](/docs/slides_abbie.pdf)
+[pdf](/docs/pdf_abbie.pdf) | [slides](/docs/slides_abbie.pdf)
 
 # Computation for Cognition
 
@@ -140,7 +142,7 @@ Recent advances in modern brain-imaging techniques have hugely bolstered researc
 <img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_prototypeexemplar.jpg">
 Human cognitive systems rely heavily on how knowledge is represented within these systems. One kind of knowledge, namely the [categorical](https://en.wikipedia.org/wiki/Concept_learning), is ubiquitous in everyday human interaction with the world. Two competing theories of how humans learn and infer from category knowledge have been popular in cognitive psychology: the exemplar theory and the prototype theory. Also, like most cognitive functions, category representations have purported to be [lateralized](https://en.wikipedia.org/wiki/Lateralization_of_brain_function) in the brain: with the left hemisphere operating under prototype conditions, and the right hemisphere operating under exemplar conditions. We explore the hypothesis as to whether category knowledge representation is indeed lateralized in the light of these theories, and if yes, then whether a transfer of control between the two gets activated at some epoch of learning. We conduct divided visual field tasks to collect data, and use Bayesian model selection to test our hypothesis.
 
-[pdf](/docs/pdf_prototypeexemplar.pdf) | [slides](/docs/slides_prototypeexemplar.pdf) | code
+[pdf](/docs/pdf_prototypeexemplar.pdf) | [slides](/docs/slides_prototypeexemplar.pdf) | [code](https://github.com/sloomba/lateralisation-category-learning)
 
 ### Human Form Learning
 *A topological perspective on form learning in humans*
