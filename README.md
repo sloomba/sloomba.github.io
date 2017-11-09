@@ -7,7 +7,7 @@ My broad research interest is to apply mathematics and machine learning to bette
 
 I also write sporadically on my [Medium](https://medium.com/@sahilloomba) about things that cross my mind. 
 
-[Curriculum Vitae](/docs/sahilloomba_cv.pdf) | [Google Scholar](https://scholar.google.com/citations?user=uuwcbrAAAAAJ) | Email: <sahil.loomba@wyss.harvard.edu>
+[Curriculum Vitae](/docs/sahilloomba_cv.pdf) | [GitHub](https://github.com/sloomba) | [Google Scholar](https://scholar.google.com/citations?user=uuwcbrAAAAAJ) | Email: <sahil.loomba@wyss.harvard.edu>
 
 # Research
 
@@ -26,7 +26,7 @@ There is a lot of shared structure of problems at various levels of the hierarch
 <img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_xtsne.jpg">
 [t-Stochastic Neighbor Embedding](https://lvdmaaten.github.io/tsne/) is a method of visualizing very high-dimensional data in 2 or 3 dimensions, that is now ubiquitiously used in data analysis across disciplines. The standard implementation allows visualization of a single feature space. We extend t-SNE to multiple feature spaces that could have an associated graph structure. That is, every data-point exists in multiple spaces, and all the data points are related in one or more graph structures. This extension is very useful since the generic graph structure can encode interesting domain knowledge that guides data visualization in the low-D space.
 
-[pdf](/docs/pdf_xtsne.pdf) | [slides](/docs/slides_xtsne.pdf) | [videos](https://www.youtube.com/watch?v=sK9OH7sdr-I&list=PLxklWlJrLiDeQO139569ouWCGY8RNeJkM&index=1) | code
+[pdf](/docs/pdf_xtsne.pdf) | [slides](/docs/slides_xtsne.pdf) | [videos](https://www.youtube.com/watch?v=sK9OH7sdr-I&list=PLxklWlJrLiDeQO139569ouWCGY8RNeJkM&index=1)
 
 ### iWMMM
 *Multimodal clustering of data by stacking DP and multioutput-GP priors*
@@ -34,7 +34,7 @@ There is a lot of shared structure of problems at various levels of the hierarch
 <img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_iwmmm.jpg">
 [Gaussian mixture models](https://en.wikipedia.org/wiki/Mixture_model#Gaussian_mixture_model) are popular for clustering problems, where every cluster is assumed to be generated from a Gaussian distribution in the feature space. Placing a [Dirichlet process](https://en.wikipedia.org/wiki/Dirichlet_process) prior on this space allows us to also automatically discover the number of clusters in the feature space, known as [infinite Gaussian mixture models](https://www.seas.harvard.edu/courses/cs281/papers/rasmussen-1999a.pdf). However, the assumption of a Gaussian shaped cluster could be flawed. Instead, one can assume the feature space to be the output of a mapping from a latent space, where the Gaussian assumption might hold. Assuming a [Gaussian process](https://en.wikipedia.org/wiki/Gaussian_process) mapping between the latent and output spaces allows us to cluster arbitrarily warped clusters, called the [infinite warped mixture model](https://arxiv.org/pdf/1206.1846.pdf). We extend this approach to when we have multiple output feature spaces, assuming each to come from an independent Gaussian process from the same latent space.
 
-[pdf](/docs/pdf_iwmmm.pdf) | [slides](/docs/slides_iwmmm.pdf) | code
+[pdf](/docs/pdf_iwmmm.pdf) | [slides](/docs/slides_iwmmm.pdf)
 
 ### Hierarchical Ensemble Classifier
 *An ensemble technique for multi-label classification*
@@ -42,7 +42,7 @@ There is a lot of shared structure of problems at various levels of the hierarch
 <img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_hierarchicalensemble.jpg">
 Many multi-classification problems have [multiple output labels](https://en.wikipedia.org/wiki/Multi-label_classification), wherein the same feature space has more than one output labels. The classification problem might be "easier" for some labels over others. With that intuition in mind, we develop a hierarchical metaclassifier which conditions single-label classifiers at lower levels on the class predicted for labels at the upper levels. That is, more difficult classification problems are conditioned over the easier ones. This flexible model can use any off-the-shelf multi-class single-label classifier at each of the levels. We test our algorithm on a two-label multi(2x4)-class problem of predicting the tolerance and pathogen of infection of a cohort of patients.
 
-[pdf](/docs/pdf_hierarchicalensemble.pdf) | [slides](/docs/slides_hierarchicalensemble.pdf) | code
+[pdf](/docs/pdf_hierarchicalensemble.pdf) | [slides](/docs/slides_hierarchicalensemble.pdf) | [code](https://github.com/sloomba/wyss-scripts)
 
 # Computation for Biology
 
@@ -53,6 +53,8 @@ Many multi-classification problems have [multiple output labels](https://en.wiki
 
 <img vspace="10" hspace="10" align="left" width="150" height="80" src="/images/thumb_protein2vec.jpg">
 We are still far from solving a lot of problems in proteomics, may it be predicting protein folding [structure](https://en.wikipedia.org/wiki/Protein_structure_prediction), or their binding characterization, which are key to fully understanding how proteins participate in key biochemical reactions that define life as we know it. In collaboration with the [Church group](http://arep.med.harvard.edu/gmc/), we define an unsupervised problem of embedding protein sequences into an appropriate vector space, so that we can apply statistical machine learning for supervised problem of interest. We are building a seq2seq model of peptide sequences, based on the [RNN encoder-decoder](https://arxiv.org/pdf/1406.1078.pdf) and Google's attention-based [Transformer](https://arxiv.org/pdf/1706.03762.pdf) model. Besides encoding the primary sequence, we would concomitantly encode relevant physicochemical properties of [amino acids](https://en.wikipedia.org/wiki/Amino_acid) that can produce more biologically meaningful embeddings.
+
+[code](https://github.com/sloomba/protein2vec)
 
 ### Project ConDDR
 *Drug repurposing using an information-retrieval strategy*
@@ -68,7 +70,7 @@ Thousands of medically approved drugs are currently used to treat various diseas
 <img vspace="10" hspace="10" align="left" width="150" height="220" src="/images/thumb_crom3top.jpg">
 Given that most bacteria are becoming resistant to antibiotics, there is an urgent need to flip our practice of diagnosing and treating pathogen infections. Instead of exterminating the pathogen, we must start looking at ways to make a host "tolerant" to the infection, that is, stay asymptomatic despite infection, and develop Technologies for Host Resilience (THoR). For that, we look at the problem of predicting tolerance, and unearthing the underlying biological mechanisms of tolerance. We define a highly generalized Bayesian probabilistic framework called CROM3TOP (Cross-species Multimodal Modular Model of Tolerance to Pathogens) which can feed on (possibly temporal) [multi-omics](https://en.wikipedia.org/wiki/Multiomics) data across various host and pathogen species, to develop a rich ontology which not only differentiates between states of tolerance and sensitivity, but also provides a valuable interface for biologists to ask arbitrary queries of interest. This would help discover novel host-pathogen mechanisms, and hasten the design of gene therapies and other medical interventions.
 
-[pdf](/docs/pdf_crom3top.pdf) | code
+[pdf](/docs/pdf_crom3top.pdf) | [code](https://github.com/sloomba/crom3top)
 
 ### Project SD2
 *Automating the* __experiment --> discover & design circuits --> test__ *pipeline of synthetic biology*
@@ -84,7 +86,7 @@ With the recent advent of synthetic biology, we are now engineering [biological 
 <img vspace="10" hspace="10" align="left" width="150" height="80" src="/images/thumb_causalgrn.jpg">
 [Gene Regulatory Networks (GRNs)](https://en.wikipedia.org/wiki/Gene_regulatory_network) hold the key to understanding and solving many problems in biological sciences, with critical applications in medicine and therapeutics. However, discovering GRNs in the laboratory is a cumbersome and tricky affair, since the number of genes and interactions, say in a mammalian cell, are very large. We aim to discover these GRNs computationally, by using gene expression levels as a time-series dataset. We research and employ techniques from probability and information theory, theory of dynamical systems, to establish pairwise causal relations between genes on synthetic datasets. Furthermore, we suggest methods for global estimation of gene networks by using intrinsic graph estimation and a random-walk based weight propagation algorithm.
 
-[pdf](/docs/pdf_causalgrn.pdf) | [slides 1](/docs/slides_1_causalgrn.pdf) | [slides 2](/docs/slides_2_causalgrn.pdf) | [slides 3](/docs/slides_3_causalgrn.pdf) | [slides 4](/docs/slides_4_causalgrn.pdf) | code
+[pdf](/docs/pdf_causalgrn.pdf) | [slides 1](/docs/slides_1_causalgrn.pdf) | [slides 2](/docs/slides_2_causalgrn.pdf) | [slides 3](/docs/slides_3_causalgrn.pdf) | [slides 4](/docs/slides_4_causalgrn.pdf) | [code](https://github.com/sloomba/causal-computational-models-grn)
 
 ### Evolvable Networks
 *Evolving synthetic biological networks using evolutionary principles*
@@ -102,7 +104,7 @@ Biological networks, may they be gene regulatory networks or protein-protein int
 <img vspace="10" hspace="10" align="left" width="150" height="110" src="/images/thumb_maldi.jpg">
 The purpose of this project was to identify *Mycobacterium tuberculosis* within biological fluids, particularly human urine, for use as a diagnostic. We have extracted pathogen from solutions using [FcMBL magnetic nanobead technology](https://wyss.harvard.edu/technology/capture-and-concentration-of-microbial-pathogens-fcmbl/). The captured material is then analyzed using matrix-assisted laser deionization time-of-flight/time-of-flight [(MALDI-TOF/TOF)](https://en.wikipedia.org/wiki/Matrix-assisted_laser_desorption/ionization) tandem mass spectrometry. This produces a series of peaks specifying the mass-to-charge ratios of the sample of interest. Peak libraries exclusive to several strains of *M. tuberculosis* as well as other microbes including *Staphylococcus aureus* and *Candida albicans* have been assembled. We created a probabilistic model from these libraries in order to identify a pathogen from an unknown sample.
 
-pdf | [webapp](https://sloomba.shinyapps.io/maldi/)
+[webapp](https://sloomba.shinyapps.io/maldi/) | [code](https://github.com/sloomba/maldi)
 
 ### Game of Apoptosis (You Live or You Die)
 *A Boolean network analysis of the tightly-regulated apoptosis pathway*
@@ -199,7 +201,7 @@ With a plethora of video lectures available for learning various topics, the cog
 <img vspace="10" hspace="10" align="left" width="150" height="130" src="/images/thumb_plankton.jpg">
 Born out of a Kaggle competition, classifying ocean plankton is an important step to be able to quantify the health of oceans. This is essentially a large multi-class problem, with close to 120 classes of plankton to be classified, with highly skewed low-resolution image data. We apply a library of image processing techniques which can characterise the shape of one plankton from another: shape descriptors ([circularity constant](https://en.wikipedia.org/wiki/Roundness_(object)), [Hu moments](https://en.wikipedia.org/wiki/Image_moment)), orientation descriptors ([Gabor filters](https://en.wikipedia.org/wiki/Gabor_filter), [HoG vectors](https://en.wikipedia.org/wiki/Histogram_of_oriented_gradients)), feature descriptors ([SIFT](https://en.wikipedia.org/wiki/Scale-invariant_feature_transform)), and information descriptors ([Fourier analysis](https://homepages.inf.ed.ac.uk/rbf/HIPR2/fourier.htm)). We follow this by a library of machine learning techniques, from support vector machines, to random forests, to neural networks. Taking inspiration from the biological domain, we created hierarchically stacked classifiers mimicking the phylogeny tree structure of plankton classes. This increased accuracies on test data, from as low as 14% on a standard SVM, to as high as 82% on stacked SVMs.
 
-[slides 1](/docs/slides_1_plankton.pdf) | [slides 2](/docs/slides_2_plankton.pdf) | code
+[slides 1](/docs/slides_1_plankton.pdf) | [slides 2](/docs/slides_2_plankton.pdf) | [code](https://github.com/harsh-parikh/plankton)
 
 ## Society
 
