@@ -59,7 +59,7 @@ We are still far from solving a lot of problems in proteomics, may it be predict
 ### Gaussian Process Models for Time-Series Omics Analysis
 *Probabilistic modeling of gene expression evolution with time*
 
-<img vspace="10" hspace="10" align="left" width="150" height="80" src="/images/thumb_gpgene.jpg">
+<img vspace="10" hspace="10" align="left" width="150" height="120" src="/images/thumb_gpgene.jpg">
 Most biological systems have associated temporal dynamics, which are key to their complete mechanistic understanding. Regulation and expression of genes, their translation into proteins, and their consequent effects on biochemical reactions, are events unfolding in accordance with their respective kinetics. Current omics analyses like differential expression focus on single snapshots of a system’s state, either at a particular point in or averaged over time. They also usually need a lot of samples. We applied two approaches to principally model time-series omics data using Gaussian process regression, and introduced methods for comparative analysis of multiple phenotypes with only few samples per phenotype. We used transcriptional data of frog embryos infected with four different initial doses of *Pseudomonas aeruginosa*, collected over the first 3 days of development. Key gene groups, that relate to pathways and processes involved in host-pathogen interactions, were also identified.
 
 [pdf](/docs/pdf_gpgene.pdf) | [slides](/docs/slides_gpgene.pdf)
