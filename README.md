@@ -152,7 +152,7 @@ Recent advances in modern brain-imaging techniques have hugely bolstered researc
 <img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_prototypeexemplar.jpg">
 Human cognitive systems rely heavily on how knowledge is represented within these systems. One kind of knowledge, namely the [categorical](https://en.wikipedia.org/wiki/Concept_learning), is ubiquitous in everyday human interaction with the world. Two competing theories of how humans learn and infer from category knowledge have been popular in cognitive psychology: the exemplar theory and the prototype theory. Also, like most cognitive functions, category representations have purported to be [lateralized](https://en.wikipedia.org/wiki/Lateralization_of_brain_function) in the brain: with the left hemisphere operating under prototype conditions, and the right hemisphere operating under exemplar conditions. We explore the hypothesis as to whether category knowledge representation is indeed lateralized in the light of these theories, and if yes, then whether a transfer of control between the two gets activated at some epoch of learning. We conduct divided visual field tasks to collect data, and use Bayesian model selection to test our hypothesis.
 
-[pdf](/docs/pdf_prototypeexemplar.pdf) | [slides](/docs/slides_prototypeexemplar.pdf) | [code](https://github.com/sloomba/lateralisation-category-learning)
+[pdf](/docs/pdf_prototypeexemplar.pdf) | [slides](/docs/slides_prototypeexemplar.pdf) | [webapp](http://www.psytoolkit.org/cgi-bin/psy2.0.7/survey?s=FK6KU) | [code](https://github.com/sloomba/lateralisation-category-learning)
 
 ### Human Form Learning
 *A topological perspective on form learning in humans*
