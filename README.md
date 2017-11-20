@@ -7,7 +7,7 @@ My broad research interest is to apply mathematics and machine learning to bette
 
 I also write sporadically on my [Medium](https://medium.com/@sahilloomba/thoughts-on-functions-and-regression-dbe4318a3ea3) about things that cross my mind. 
 
-[Curriculum Vitae](/docs/sahilloomba_cv.pdf) | [GitHub](https://github.com/sloomba) | [Google Scholar](https://scholar.google.com/citations?user=uuwcbrAAAAAJ) | Email: <sahil.loomba@wyss.harvard.edu>
+<center>[Curriculum Vitae](/docs/sahilloomba_cv.pdf) | [GitHub](https://github.com/sloomba) | [Google Scholar](https://scholar.google.com/citations?user=uuwcbrAAAAAJ) | Email: <sahil.loomba@wyss.harvard.edu></center>
 
 # Research Philosophy
 
@@ -19,8 +19,9 @@ I believe computation is a vital tool for understanding things at all levels of 
 There is a lot of shared structure of problems at various levels of the hierarchy, for instance the prevalance of [graph structures](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)) at the biological, cognitive and societal levels. This pattern, when abstracted out, is precisely what permits the ominpotent use of computation.
 
 <a name="research_philosophy"></a>
-
+<center>
 [Computation Core](#computation_core) | [For Biology](#computation_for_biology) | [For Cognition](#computation_for_cognition) | [For Society](#computation_for_society)
+</center>
 
 # <a name="computation_core"></a>Computation Core
 
