@@ -48,7 +48,7 @@ Many multi-classification problems have [multiple output labels](https://en.wiki
 
 [pdf](/docs/pdf_hierarchicalensemble.pdf) | [slides](/docs/slides_hierarchicalensemble.pdf) | [code](https://github.com/sloomba/wyss-scripts)
 
-<right>[Go to Top](#research_philosophy)</right>
+<div style="text-align: right">[Go to Top](#research_philosophy)</div>
 
 # <a name="computation_for_biology"></a>Computation for Biology
 
@@ -138,7 +138,7 @@ Asthma is a common inflammatory disease of lung airways which affects millions o
 
 [pdf](/docs/pdf_abbie.pdf) | [slides](/docs/slides_abbie.pdf)
 
-<right>[Go to Top](#research_philosophy)</right>
+<div style="text-align: right">[Go to Top](#research_philosophy)</div>
 
 # <a name="computation_for_cognition"></a>Computation for Cognition
 
@@ -178,7 +178,7 @@ The central objective of recent strides taken by biology and biochemistry has be
 
 [pdf](/docs/pdf_complexitylivingbiosystems.pdf) |
 
-<right>[Go to Top](#research_philosophy)</right>
+<div style="text-align: right">[Go to Top](#research_philosophy)</div>
 
 # <a name="computation_for_society"></a>Computation for Society
 
@@ -239,4 +239,4 @@ Unsettlement of our personal fundamental beliefs is a common occurrence in human
 
 [pdf](/docs/pdf_unsettlement.pdf) | [slides](/docs/slides_unsettlement.pdf)
 
-<right>[Go to Top](#research_philosophy)</right>
+<div style="text-align: right">[Go to Top](#research_philosophy)</div>
