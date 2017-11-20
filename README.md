@@ -48,7 +48,7 @@ Many multi-classification problems have [multiple output labels](https://en.wiki
 
 [pdf](/docs/pdf_hierarchicalensemble.pdf) | [slides](/docs/slides_hierarchicalensemble.pdf) | [code](https://github.com/sloomba/wyss-scripts)
 
-<div style="text-align: right">[Go to Top](#research_philosophy)</div>
+<p align="right"><a href="#research_philosophy">Go to Top</a></p>
 
 # <a name="computation_for_biology"></a>Computation for Biology
 
@@ -75,6 +75,8 @@ Most biological systems have associated temporal dynamics, which are key to thei
 
 <img vspace="10" hspace="10" align="left" width="150" height="110" src="/images/thumb_conddr.jpg">
 Thousands of medically approved drugs are currently used to treat various diseases, but they can have complex interactions with more than one receptor proteins. That is, the same drug can interact with multiple receptors and thus be *repurposed* for treating a different disease. Moreover, their combinations can be given as so-called "drug cocktails" to improve a treatment's efficacy, as is now the norm in cancer therapies. With this motivation in mind we propose Context Dependent Drug Repurposing. We extracted an ontology of drug-gene interactions. We employ techniques of information retrieval on this interaction matrix, by treating it as a [document-word matrix](https://en.wikipedia.org/wiki/Document-term_matrix) and genes-of-interest as a query vector. We successfully "rediscover" conventional drugs for diseases such as TB, and discover novel ones for other bacterial infections.
+
+<p align="right"><a href="#research_philosophy">Go to Top</a></p>
 
 ## Biomolecular Networks
 
@@ -110,6 +112,8 @@ Biological networks, may they be gene regulatory networks or protein-protein int
 
 [slides](/docs/slides_evolvablenetworks.pdf) |
 
+<p align="right"><a href="#research_philosophy">Go to Top</a></p>
+
 ## Biological Cells
 
 ### Project MALDI for Diagnosis
@@ -128,6 +132,8 @@ The purpose of this project was to identify *Mycobacterium tuberculosis* within 
 
 [slides](/docs/slides_apoptosis.pdf) | [code](https://github.com/sloomba/apoptosis)
 
+<p align="right"><a href="#research_philosophy">Go to Top</a></p>
+
 ## Human Body
 
 ### Project Abbie
@@ -138,7 +144,7 @@ Asthma is a common inflammatory disease of lung airways which affects millions o
 
 [pdf](/docs/pdf_abbie.pdf) | [slides](/docs/slides_abbie.pdf)
 
-<div style="text-align: right">[Go to Top](#research_philosophy)</div>
+<p align="right"><a href="#research_philosophy">Go to Top</a></p>
 
 # <a name="computation_for_cognition"></a>Computation for Cognition
 
@@ -151,6 +157,8 @@ Asthma is a common inflammatory disease of lung airways which affects millions o
 Recent advances in modern brain-imaging techniques have hugely bolstered research in areas of brain sciences and cognitive studies. While they were earlier being used for merely diagnosing brain disorders, they are now being used to generate highly utilitarian bits of data. One such imaging technique is [EEG](https://en.wikipedia.org/wiki/Electroencephalography), which essentially measures the averaged electrical potential across the human scalp. The motivation behind this project was to develop a computational basis for developing real-time brain controlled actions, such as thought-controlled prosthetic limbs or electronic devices. Can we recover signatures of motor activity, or the thought of motor activity, from the EEG signal? We conducedt controlled experiments to collect EEG data. Using techniques from machine learning, we then classify them into three motion states of rest, arm jerk, and thought of arm jerk.
 
 [pdf](/docs/pdf_eeg.pdf) | [poster](/docs/poster_eeg.pdf) | [slides](/docs/slides_eeg.pdf)
+
+<p align="right"><a href="#research_philosophy">Go to Top</a></p>
 
 ## Human Brain
 
@@ -178,7 +186,7 @@ The central objective of recent strides taken by biology and biochemistry has be
 
 [pdf](/docs/pdf_complexitylivingbiosystems.pdf) |
 
-<div style="text-align: right">[Go to Top](#research_philosophy)</div>
+<p align="right"><a href="#research_philosophy">Go to Top</a></p>
 
 # <a name="computation_for_society"></a>Computation for Society
 
@@ -210,6 +218,7 @@ With a plethora of video lectures available for learning various topics, the cog
 
 [pdf](/docs/poster_videosequencing.pdf) | [code](https://github.com/sloomba/video-lecture-sequencing)
 
+<p align="right"><a href="#research_philosophy">Go to Top</a></p>
 
 ## Environment
 
@@ -220,6 +229,8 @@ With a plethora of video lectures available for learning various topics, the cog
 Born out of a Kaggle competition, classifying ocean plankton is an important step to be able to quantify the health of oceans. This is essentially a large multi-class problem, with close to 120 classes of plankton to be classified, with highly skewed low-resolution image data. We apply a library of image processing techniques which can characterise the shape of one plankton from another: shape descriptors ([circularity constant](https://en.wikipedia.org/wiki/Roundness_(object)), [Hu moments](https://en.wikipedia.org/wiki/Image_moment)), orientation descriptors ([Gabor filters](https://en.wikipedia.org/wiki/Gabor_filter), [HoG vectors](https://en.wikipedia.org/wiki/Histogram_of_oriented_gradients)), feature descriptors ([SIFT](https://en.wikipedia.org/wiki/Scale-invariant_feature_transform)), and information descriptors ([Fourier analysis](https://homepages.inf.ed.ac.uk/rbf/HIPR2/fourier.htm)). We follow this by a library of machine learning techniques, from support vector machines, to random forests, to neural networks. Taking inspiration from the biological domain, we created hierarchically stacked classifiers mimicking the phylogeny tree structure of plankton classes. This increased accuracies on test data, from as low as 14% on a standard SVM, to as high as 82% on stacked SVMs.
 
 [slides 1](/docs/slides_1_plankton.pdf) | [slides 2](/docs/slides_2_plankton.pdf) | [code](https://github.com/harsh-parikh/plankton)
+
+<p align="right"><a href="#research_philosophy">Go to Top</a></p>
 
 ## Society
 
@@ -239,4 +250,4 @@ Unsettlement of our personal fundamental beliefs is a common occurrence in human
 
 [pdf](/docs/pdf_unsettlement.pdf) | [slides](/docs/slides_unsettlement.pdf)
 
-<div style="text-align: right">[Go to Top](#research_philosophy)</div>
+<p align="right"><a href="#research_philosophy">Go to Top</a></p>
