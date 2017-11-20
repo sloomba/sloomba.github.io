@@ -112,7 +112,7 @@ Biological networks, may they be gene regulatory networks or protein-protein int
 <img vspace="10" hspace="10" align="left" width="150" height="110" src="/images/thumb_maldi.jpg">
 The purpose of this project was to identify *Mycobacterium tuberculosis* within biological fluids, particularly human urine, for use as a diagnostic. We have extracted pathogen from solutions using [FcMBL magnetic nanobead technology](https://wyss.harvard.edu/technology/capture-and-concentration-of-microbial-pathogens-fcmbl/). The captured material is then analyzed using matrix-assisted laser deionization time-of-flight/time-of-flight [(MALDI-TOF/TOF)](https://en.wikipedia.org/wiki/Matrix-assisted_laser_desorption/ionization) tandem mass spectrometry. This produces a series of peaks specifying the mass-to-charge ratios of the sample of interest. Peak libraries exclusive to several strains of *M. tuberculosis* as well as other microbes including *Staphylococcus aureus* and *Candida albicans* have been assembled. We created a probabilistic model from these libraries in order to identify a pathogen from an unknown sample.
 
-[webapp](https://sloomba.shinyapps.io/maldi/) | [code](https://github.com/sloomba/maldi)
+[webapp](https://sloomba.shinyapps.io/maldi/) | [code](https://github.com/sloomba/maldi) | _manuscript in prep_
 
 ### Game of Apoptosis (You Live or You Die)
 *A Boolean network analysis of the tightly-regulated apoptosis pathway*
