@@ -20,8 +20,7 @@ There is a lot of shared structure of problems at various levels of the hierarch
 
 <a name="research_philosophy"></a>
 
-Navigate to:
-[Computation Core](#computation_core) | [For Biology](#computation_for_biology) | [For Cognition](#computation_for_cognition) | [For Society](#computation_for_society)
+[**Computation Core**](#computation_core) | [**For Biology**](#computation_for_biology) | [**For Cognition**](#computation_for_cognition) | [**For Society**](#computation_for_society)
 
 # <a name="computation_core"></a>Computation Core
 
