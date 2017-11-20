@@ -13,8 +13,8 @@ I also write sporadically on my [Medium](https://medium.com/@sahilloomba/thought
 
 I believe computation is a vital tool for understanding things at all levels of organization of the world. Right from the fundamental particles of the universe, to the biomolecules that make life possible, to the wonders of biological intelligence, up to the intricate social interactions that create human civilization. Although most of my work focuses on biological and cognitive systems, I like to situate my research in the context of this organizational hierarchy.
 
-<img vspace="10" hspace="10" align="middle" width="600" height="700" src="/images/organization_of_the_world.jpg">
-<p align="center"><i>Hierarchical Organization of the World</i></p>
+<p align="center"><img vspace="10" hspace="10" width="600" height="700" src="/images/organization_of_the_world.jpg">
+<i>Hierarchical Organization of the World</i></p>
 
 There is a lot of shared structure of problems at various levels of the hierarchy, for instance the prevalance of [graph structures](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)) at the biological, cognitive and societal levels. This pattern, when abstracted out, is precisely what permits the ominpotent use of computation.
 
