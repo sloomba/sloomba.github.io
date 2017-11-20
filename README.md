@@ -7,7 +7,7 @@ My broad research interest is to apply mathematics and machine learning to bette
 
 I also write sporadically on my [Medium](https://medium.com/@sahilloomba/thoughts-on-functions-and-regression-dbe4318a3ea3) about things that cross my mind. 
 
-<center>[Curriculum Vitae](/docs/sahilloomba_cv.pdf) | [GitHub](https://github.com/sloomba) | [Google Scholar](https://scholar.google.com/citations?user=uuwcbrAAAAAJ) | Email: <sahil.loomba@wyss.harvard.edu></center>
+<p align="center">[Curriculum Vitae](/docs/sahilloomba_cv.pdf) | [GitHub](https://github.com/sloomba) | [Google Scholar](https://scholar.google.com/citations?user=uuwcbrAAAAAJ) | Email: <sahil.loomba@wyss.harvard.edu></p>
 
 # Research Philosophy
 
