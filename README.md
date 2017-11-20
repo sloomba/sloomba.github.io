@@ -9,7 +9,7 @@ I also write sporadically on my [Medium](https://medium.com/@sahilloomba/thought
 
 [Curriculum Vitae](/docs/sahilloomba_cv.pdf) | [GitHub](https://github.com/sloomba) | [Google Scholar](https://scholar.google.com/citations?user=uuwcbrAAAAAJ) | Email: <sahil.loomba@wyss.harvard.edu>
 
-# Research
+# Research Philosophy
 
 I believe computation is a vital tool for understanding things at all levels of organization of the world. Right from the fundamental particles of the universe, to the biomolecules that make life possible, to the wonders of biological intelligence, up to the intricate social interactions that create human civilization. Although most of my work focuses on biological and cognitive systems, I like to situate my research in the context of this organizational hierarchy.
 
@@ -17,8 +17,10 @@ I believe computation is a vital tool for understanding things at all levels of 
 *Hierarchical Organization of the World*
 
 There is a lot of shared structure of problems at various levels of the hierarchy, for instance the prevalance of [graph structures](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)) at the biological, cognitive and societal levels. This pattern, when abstracted out, is precisely what permits the ominpotent use of computation.
+<a name="research_philosophy"></a>
+[Computation Core](#computation_core) | [For Biology](#computation_for_biology) | [For Cognition]((#computation_for_cognition) | [For Society]((#computation_for_society)
 
-# Computation Core
+# <a name="computation_core"></a>Computation Core
 
 ### X-t-SNE
 *Data visualization of multiple high-D spaces with associated graph structures*
@@ -44,7 +46,9 @@ Many multi-classification problems have [multiple output labels](https://en.wiki
 
 [pdf](/docs/pdf_hierarchicalensemble.pdf) | [slides](/docs/slides_hierarchicalensemble.pdf) | [code](https://github.com/sloomba/wyss-scripts)
 
-# Computation for Biology
+[Go to Top](#research_philosophy) |
+
+# <a name="computation_for_biology"></a>Computation for Biology
 
 ## Biomolecules
 
@@ -132,7 +136,9 @@ Asthma is a common inflammatory disease of lung airways which affects millions o
 
 [pdf](/docs/pdf_abbie.pdf) | [slides](/docs/slides_abbie.pdf)
 
-# Computation for Cognition
+[Go to Top](#research_philosophy) |
+
+# <a name="computation_for_cognition"></a>Computation for Cognition
 
 ## Cellular Signalling
 
@@ -170,7 +176,9 @@ The central objective of recent strides taken by biology and biochemistry has be
 
 [pdf](/docs/pdf_complexitylivingbiosystems.pdf) |
 
-# Computation for Society
+[Go to Top](#research_philosophy) |
+
+# <a name="computation_for_society"></a>Computation for Society
 
 ## Social Networks
 
@@ -228,3 +236,5 @@ The most foundational assumption in all of microeconomic theory is that of ratio
 Unsettlement of our personal fundamental beliefs is a common occurrence in human interactions that allows people to update their beliefs about the world. This interventionary process can eventually define collective choice of a people. But it also places an interesting moral dilemma on the participants of the intervention: "is it *right* to unsettle someone else's core beliefs?" and "should I *let* myself get unsettled?" We present an abstraction of the cognitive machinery of the agents involved in this moral problem, the way they represent knowledge and beliefs, and offer a way to resolve this dilemma for both the unsettler and the one unsettled.
 
 [pdf](/docs/pdf_unsettlement.pdf) | [slides](/docs/slides_unsettlement.pdf)
+
+[Go to Top](#research_philosophy) |
