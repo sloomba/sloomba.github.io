@@ -19,7 +19,7 @@ I believe computation is a vital tool for understanding things at all levels of 
 There is a lot of shared structure of problems at various levels of the hierarchy, for instance the prevalance of [graph structures](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)) at the biological, cognitive and societal levels. This pattern, when abstracted out, is precisely what permits the ominpotent use of computation.
 
 <a name="research_philosophy"></a>
-Navigate:
+
 [Computation Core](#computation_core) | [For Biology](#computation_for_biology) | [For Cognition](#computation_for_cognition) | [For Society](#computation_for_society)
 
 # <a name="computation_core"></a>Computation Core
@@ -48,7 +48,7 @@ Many multi-classification problems have [multiple output labels](https://en.wiki
 
 [pdf](/docs/pdf_hierarchicalensemble.pdf) | [slides](/docs/slides_hierarchicalensemble.pdf) | [code](https://github.com/sloomba/wyss-scripts)
 
-[Go to Top](#research_philosophy) |
+<right>[Go to Top](#research_philosophy)</right>
 
 # <a name="computation_for_biology"></a>Computation for Biology
 
@@ -138,7 +138,7 @@ Asthma is a common inflammatory disease of lung airways which affects millions o
 
 [pdf](/docs/pdf_abbie.pdf) | [slides](/docs/slides_abbie.pdf)
 
-[Go to Top](#research_philosophy) |
+<right>[Go to Top](#research_philosophy)</right>
 
 # <a name="computation_for_cognition"></a>Computation for Cognition
 
@@ -178,7 +178,7 @@ The central objective of recent strides taken by biology and biochemistry has be
 
 [pdf](/docs/pdf_complexitylivingbiosystems.pdf) |
 
-[Go to Top](#research_philosophy) |
+<right>[Go to Top](#research_philosophy)</right>
 
 # <a name="computation_for_society"></a>Computation for Society
 
@@ -239,4 +239,4 @@ Unsettlement of our personal fundamental beliefs is a common occurrence in human
 
 [pdf](/docs/pdf_unsettlement.pdf) | [slides](/docs/slides_unsettlement.pdf)
 
-[Go to Top](#research_philosophy) |
+<right>[Go to Top](#research_philosophy)</right>
