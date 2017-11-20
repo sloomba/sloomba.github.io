@@ -19,6 +19,7 @@ I believe computation is a vital tool for understanding things at all levels of 
 There is a lot of shared structure of problems at various levels of the hierarchy, for instance the prevalance of [graph structures](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)) at the biological, cognitive and societal levels. This pattern, when abstracted out, is precisely what permits the ominpotent use of computation.
 
 <a name="research_philosophy"></a>
+
 [Computation Core](#computation_core) | [For Biology](#computation_for_biology) | [For Cognition](#computation_for_cognition) | [For Society](#computation_for_society)
 
 # <a name="computation_core"></a>Computation Core
