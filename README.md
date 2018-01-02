@@ -3,7 +3,7 @@ I am a research fellow supervised by [Prof. James J. Collins](http://collinslab.
 
 I did my B.Tech in Computer Science and Engineering at [IIT Delhi](http://www.iitd.ac.in/), where my research was primarily guided by [Dr. Sumeet Agarwal](http://web.iitd.ac.in/~sumeet/research.html). My bachelors' thesis focused on building causal models of gene regulatory networks.
 
-My broad research interest is to apply mathematics and machine learning to better understand how complex biological, cognitive and eventually social systems work.
+My broad research interest is to apply mathematics and machine learning to better understand how complex biological, cognitive and eventually social systems work. And in turn, use the knowledge gained to refine notions of computation itself. You can read more about my thoughts on this [here](/docs/sahilloomba_statement.pdf).
 
 I also write sporadically on my [Medium](https://medium.com/@sahilloomba/thoughts-on-functions-and-regression-dbe4318a3ea3) about things that cross my mind. 
 
