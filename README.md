@@ -5,7 +5,7 @@ I did my B.Tech in Computer Science and Engineering at [IIT Delhi](http://www.ii
 
 My broad research interest is to apply mathematics and machine learning to better understand how complex biological, cognitive and eventually social systems work. And in turn, use the knowledge gained to refine notions of computation itself. You can read more about my thoughts on this [here](/docs/sahilloomba_statement.pdf).
 
-I also write sporadically on my [Medium](https://medium.com/@sahilloomba/thoughts-on-functions-and-regression-dbe4318a3ea3) about things that cross my mind. 
+I also write sporadically on my [Medium](https://medium.com/@sahilloomba/) about things that cross my mind. 
 
 [Resume](/docs/sahilloomba_cv.pdf) | [Research Statement](/docs/sahilloomba_statement.pdf) | [GitHub](https://github.com/sloomba) | [Google Scholar](https://scholar.google.com/citations?user=uuwcbrAAAAAJ) | Email: <sahil.loomba@wyss.harvard.edu>
 
