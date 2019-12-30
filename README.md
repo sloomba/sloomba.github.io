@@ -1,18 +1,18 @@
 <img vspace="10" hspace="10" align="right" width="200" height="200" src="/images/sloomba.jpg">
-I am a research fellow supervised by [Prof. James J. Collins](http://collinslab.mit.edu/) at the [Wyss Institute for Biologically Inspired Engineering](https://wyss.harvard.edu/) at [Harvard University](https://www.harvard.edu/). I presently work at the intersection of computer science (mostly Bayesian nonparametrics and deep probabilistic programming) and biology (mostly systems and synthetic biology). 
+I am a PhD student in Applied Mathematics supervised by [Prof. Nick S. Jones](https://www.imperial.ac.uk/people/nick.jones) at [Imperial College London](https://www.imperial.ac.uk/). I study people's social networks, particularly how they relate to their health, which involves research at the crossroads of network science, graph theory and sociology.
+
+Previously, I was a research fellow supervised by [Prof. James J. Collins](http://collinslab.mit.edu/) at the [Wyss Institute for Biologically Inspired Engineering](https://wyss.harvard.edu/) at [Harvard University](https://www.harvard.edu/). I pursued work at the intersection of computer science (mostly probabilistic modeling) and biology (mostly systems and synthetic biology). 
 
 I did my B.Tech in Computer Science and Engineering at [IIT Delhi](http://www.iitd.ac.in/), where my research was primarily guided by [Dr. Sumeet Agarwal](http://web.iitd.ac.in/~sumeet/research.html). My bachelors' thesis focused on building causal models of gene regulatory networks.
 
 My broad research interest is to apply mathematics and machine learning to better understand how complex biological, cognitive and eventually social systems work. And in turn, use the knowledge gained to refine notions of computation itself. You can read more about my thoughts on this [here](/docs/sahilloomba_statement.pdf).
 
-I also write sporadically on my [Medium](https://medium.com/@sahilloomba/) about things that cross my mind. 
-
-[Resume](/docs/sahilloomba_cv.pdf) | [Research Statement](/docs/sahilloomba_statement.pdf) | [GitHub](https://github.com/sloomba) | [Google Scholar](https://scholar.google.com/citations?user=uuwcbrAAAAAJ) | Email: <sahil.loomba@wyss.harvard.edu>
+[Resume](/docs/sahilloomba_cv.pdf) | [Research Statement](/docs/sahilloomba_statement.pdf) | [GitHub](https://github.com/sloomba) | [Google Scholar](https://scholar.google.com/citations?user=uuwcbrAAAAAJ) | Email: <s.loomba18@imperial.ac.uk>
 
 # Research Philosophy
 
 <img vspace="10" hspace="10" align="left" width="400" height="410" src="/images/organization_of_the_world.jpg">
-I believe computation is a vital tool for understanding things at all levels of organization of the world. Right from the fundamental particles of the universe, to the biomolecules that make life possible, to the wonders of biological intelligence, up to the intricate social interactions that create human civilization. Although most of my work focuses on biological and cognitive systems, I like to situate my research in the context of this organizational hierarchy. There is a lot of shared structure of problems at various levels of the hierarchy, for instance the prevalance of [graph structures](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)) at the biological, cognitive and societal levels. This pattern, when abstracted out, is precisely what permits the ominpotent use of computation.
+I believe computation is a vital tool for understanding things at all levels of organization of the world. Right from the fundamental particles of the universe, to the biomolecules that make life possible, to the wonders of biological intelligence, up to the intricate social interactions that create human civilization. There is a lot of shared structure of problems at various levels of the hierarchy, for instance the prevalance of [graph structures](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)) at the biological, cognitive and societal levels, which is the recurring theme of my research. This pattern, when abstracted out, is precisely what permits the ominpotent use of computation.
 
 <a name="research_philosophy"></a>
 
