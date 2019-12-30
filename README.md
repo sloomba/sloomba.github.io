@@ -7,7 +7,7 @@ I did my B.Tech in Computer Science and Engineering at [IIT Delhi](http://www.ii
 
 My broader research interest is to apply mathematics and machine learning to better understand how complex biological, cognitive and eventually social systems work. And in turn, use the knowledge gained to refine notions of computation itself. You can read more about my thoughts on this [here](/docs/sahilloomba_statement.pdf).
 
-[Resume](/docs/sahilloomba_cv.pdf) | [Research Statement](/docs/sahilloomba_statement.pdf) | [GitHub](https://github.com/sloomba) | [Google Scholar](https://scholar.google.com/citations?user=uuwcbrAAAAAJ) | Email: <s.loomba18@imperial.ac.uk>
+[Resume](/docs/sahilloomba_cv.pdf) | [GitHub](https://github.com/sloomba) | [Google Scholar](https://scholar.google.com/citations?user=uuwcbrAAAAAJ) | Email: <s.loomba18@imperial.ac.uk>
 
 # Research Philosophy
 
@@ -23,7 +23,7 @@ I believe computation is a vital tool for understanding things at all levels of 
 ### Graph-Coarsening
 *Probabilistic modeling of networks and their statistics using Stochastic Block Models*
 
-<img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_sbmeig.JPG">
+<img vspace="10" hspace="10" align="left" width="200" height="100" src="/images/thumb_sbmeig.JPG">
 Statistical models of networks define a probabilistic space over graph structures, that once inferred can concisely summarize real-world networks. One such paradigm is [Stochastic Block Models](https://en.wikipedia.org/wiki/Stochastic_block_model), through which we develop a framework to define mean and variance of various network statistics. Using a random-walk approach, we generate model-level definitions of popular [centrality](https://en.wikipedia.org/wiki/Centrality) measures such as Katz centrality, betweenness, closeness and communicability centralities. This analysis matches up to the use of matrix functions for computing centralities at the graph level, extending it further for [betweenness](https://en.wikipedia.org/wiki/Betweenness_centrality) and [closeness centralities](https://en.wikipedia.org/wiki/Closeness_centrality). Additionally, we pursue the computation of spectral density of operators on graphs generated in this setup, with a focus on the expected [spectral radius](https://en.wikipedia.org/wiki/Spectral_radius) of the adjacency matrix. Our work demonstrates a unified approach to query means and uncertainties of nodal, local or global network statistics.
 
 ### X-t-SNE
@@ -85,7 +85,7 @@ Thousands of medically approved drugs are currently used to treat various diseas
 ### NeMoCAD
 *Network Model for Causally Aware Discovery*
 
-<img vspace="10" hspace="10" align="left" width="150" height="220" src="/images/thumb_nemocad.JPG">
+<img vspace="10" hspace="10" align="left" width="150" height="110" src="/images/thumb_nemocad.JPG">
 The problem of drug discovery can be seen as a problem of inducing a given model system, such as frog embryos, into a targetted transcriptomic state--a snapshot of which genes or proteins are "on" or "off" in the desired state. However, many genes interact with one another through [regulatory mechanisms](#grn). Moreover, many drugs can have unintended side-effects since they impact more than one gene of interest. Therefore, we learn a network-aware Bayesian model from gene-gene and drug-gene datasets, which can be "queried" for appropriate gene therapies. We further extend this pipeline to affect not just desired genotypes, but phenotypes directly, which can facilitate closed-loop high-throughput drug screenings without performing transcriptomics analyses.
 
 [slides](/docs/slides_biomath.pdf) | [docs](https://nemocad.readthedocs.io/en/latest/) | [notebook](https://nbviewer.jupyter.org/github/sloomba/nemocad/blob/master/nemocad_tutorial.ipynb) | [code](https://github.com/sloomba/nemocad)
@@ -134,7 +134,7 @@ The purpose of this project was to identify *Mycobacterium tuberculosis* within 
 
 [webapp](https://sloomba.shinyapps.io/maldi/) | [code](https://github.com/sloomba/maldi) | _manuscript in prep_
 
-### Game of Apoptosis (You Live or You Die)
+### Game of Apoptosis
 *A Boolean network analysis of the tightly-regulated apoptosis pathway*
 
 <img vspace="10" hspace="10" align="left" width="150" height="220" src="/images/thumb_apoptosis.jpg">
@@ -205,7 +205,7 @@ The central objective of recent strides taken by biology and biochemistry has be
 ### Learning Social Connectivity Kernels
 *A cheap method to infer social connectivity models from egocentric data*
 
-<img vspace="10" hspace="10" align="left" width="150" height="140" src="/images/thumb_sashealth.JPG">
+<img vspace="10" hspace="10" align="left" width="200" height="140" src="/images/thumb_sashealth.JPG">
 Social networks play a crucial role in determining social outcomes, particularly those related to people's health and well-being. We present a novel method to learn probabilistic connectivity kernels from small-scale egocentric surveys, and consequently extract social access statistics from widely available socio-demographic surveys like the census. We demonstrate how different network centralities, that capture varied dimensions of [social capital](https://en.wikipedia.org/wiki/Social_capital), correlate to people's subjective and objective well-being. Being a generative model, representative networks can be sampled to pursue downstream social network analyses, both on network ensembles and at the model level.
 
 [pdf](/docs/pdf_sashealth.pdf) | 
@@ -226,7 +226,7 @@ Social networks play a crucial role in determining social outcomes, particularly
 <img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_mmtoc.jpg">
 The amount of instructional videos available online is growing steadily. A major bottleneck in their widespread usage is the lack of tools for easy consumption of these videos. We developed MMToC (Multimodal Method for Table of Content), that automatically generates a table of content for a given instructional video and enables textbook-like efficient navigation through the video. MMToC quantifies word saliency for visual words extracted from the slides and for spoken words obtained from the lecture transcript. These saliency scores are combined using a segmentation algorithm to identify likely breakpoints in the video where the topic has changed. 
 
-[paper](http://dl.acm.org/citation.cfm?id=2879472) | [pdf](/docs/paper_mmtoc_icdm.pdf)
+[paper](http://dl.acm.org/citation.cfm?id=2879472) | [pdf](/docs/paper_icdm_mmtoc.pdf)
 
 #### Video Lecture Sequencing
 *Automatic creation of a video-based curriculum for a given learning goal*
@@ -255,7 +255,7 @@ Born out of a Kaggle competition, classifying ocean plankton is an important ste
 ### Urban Mobility
 *How far would you go? Comparing urban access in 10 Global Cities*
 
-<img vspace="10" hspace="10" align="left" width="150" height="140" src="/images/thumb_urbanaccess.JPG">
+<img vspace="10" hspace="10" align="left" width="160" height="140" src="/images/thumb_urbanaccess.JPG">
 Cities permit people to access a diverse range of venues and attractions with relative ease. A range of factors can determine how successfully they do so. We provide a probabilistic framework that captures 3 inter-related yet independently varying views of urban mobility: spatial, functional and social. The spatial view captures number of public venues across physical space (say a city), and thus the opportunities of access. The functional view captures venues across functional categories (say transport, restaurants), and thus the type of access. The social view is the sum of all behavioural
 considerations (people tend to go from offices to metro stations). We develop principled measures of urban and spatial access which are validated by using data on trip check-ins from the location-based social network [Foursquare](https://foursquare.com/about/), on 10 cities spread across the globe. Analysis reveals that people travel further for venue diversity, and for venue types they have a high affinity for. Consequently, there is a trade-off between local venue diversity and global venue popularity.
 
