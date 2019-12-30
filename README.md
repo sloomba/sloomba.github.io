@@ -1,11 +1,11 @@
 <img vspace="10" hspace="10" align="right" width="200" height="200" src="/images/sloomba.jpg">
-I am a PhD student in Applied Mathematics supervised by [Prof. Nick S. Jones](https://www.imperial.ac.uk/people/nick.jones) at [Imperial College London](https://www.imperial.ac.uk/). I study people's social networks, particularly how they relate to their health, which involves research at the crossroads of network science, graph theory and sociology.
+I am a PhD student in Applied Mathematics supervised by [Prof. Nick S. Jones](https://www.imperial.ac.uk/people/nick.jones) at [Imperial College London](https://www.imperial.ac.uk/). I study how people form social connections, and how these social networks relate to their health, which involves research at the crossroads of network science, graph theory and sociology. Work-in-progress, but this [poster](/docs/pdf_sashealth.pdf) captures some of the work I've done on this problem yet.
 
-Previously, I was a research fellow supervised by [Prof. James J. Collins](http://collinslab.mit.edu/) at the [Wyss Institute for Biologically Inspired Engineering](https://wyss.harvard.edu/) at [Harvard University](https://www.harvard.edu/). I pursued work at the intersection of computer science (mostly probabilistic modeling) and biology (mostly systems and synthetic biology). 
+Previously, I was a research fellow supervised by [Prof. James J. Collins](http://collinslab.mit.edu/) at the [Wyss Institute for Biologically Inspired Engineering](https://wyss.harvard.edu/) at [Harvard University](https://www.harvard.edu/). I pursued work at the intersection of computer science (mostly probabilistic modeling) and biology (mostly systems and synthetic biology). This [slide deck](/docs/slides_biomath.pdf) is a neat summary of my pursuit to bring mathematical order to biology.
 
-I did my B.Tech in Computer Science and Engineering at [IIT Delhi](http://www.iitd.ac.in/), where my research was primarily guided by [Dr. Sumeet Agarwal](http://web.iitd.ac.in/~sumeet/research.html). My bachelors' thesis focused on building causal models of gene regulatory networks.
+I did my B.Tech in Computer Science and Engineering at [IIT Delhi](http://www.iitd.ac.in/), where my research was primarily guided by [Dr. Sumeet Agarwal](http://web.iitd.ac.in/~sumeet/research.html). My bachelors' [thesis](/docs/pdf_causalgrn.pdf) focused on building causal models of gene regulatory networks.
 
-My broad research interest is to apply mathematics and machine learning to better understand how complex biological, cognitive and eventually social systems work. And in turn, use the knowledge gained to refine notions of computation itself. You can read more about my thoughts on this [here](/docs/sahilloomba_statement.pdf).
+My broader research interest is to apply mathematics and machine learning to better understand how complex biological, cognitive and eventually social systems work. And in turn, use the knowledge gained to refine notions of computation itself. You can read more about my thoughts on this [here](/docs/sahilloomba_statement.pdf).
 
 [Resume](/docs/sahilloomba_cv.pdf) | [Research Statement](/docs/sahilloomba_statement.pdf) | [GitHub](https://github.com/sloomba) | [Google Scholar](https://scholar.google.com/citations?user=uuwcbrAAAAAJ) | Email: <s.loomba18@imperial.ac.uk>
 
@@ -19,6 +19,12 @@ I believe computation is a vital tool for understanding things at all levels of 
 [**Computation Core**](#computation_core) | [**For Biology**](#computation_for_biology) | [**For Cognition**](#computation_for_cognition) | [**For Society**](#computation_for_society)
 
 # <a name="computation_core"></a>Computation Core
+
+### Graph-Coarsening
+*Probabilistic modeling of networks and their statistics using Stochastic Block Models*
+
+<img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_sbmeig.JPG">
+Statistical models of networks define a probabilistic space over graph structures, that once inferred can concisely summarize real-world networks. One such paradigm is [Stochastic Block Models](https://en.wikipedia.org/wiki/Stochastic_block_model), through which we develop a framework to define mean and variance of various network statistics. Using a random-walk approach, we generate model-level definitions of popular [centrality](https://en.wikipedia.org/wiki/Centrality) measures such as Katz centrality, betweenness, closeness and communicability centralities. This analysis matches up to the use of matrix functions for computing centralities at the graph level, extending it further for [betweenness](https://en.wikipedia.org/wiki/Betweenness_centrality) and [closeness centralities](https://en.wikipedia.org/wiki/Closeness_centrality). Additionally, we pursue the computation of spectral density of operators on graphs generated in this setup, with a focus on the expected [spectral radius](https://en.wikipedia.org/wiki/Spectral_radius) of the adjacency matrix. Our work demonstrates a unified approach to query means and uncertainties of nodal, local or global network statistics.
 
 ### X-t-SNE
 *Data visualization of multiple high-D spaces with associated graph structures*
@@ -76,6 +82,14 @@ Thousands of medically approved drugs are currently used to treat various diseas
 
 ## Biomolecular Networks
 
+### NeMoCAD
+*Network Model for Causally Aware Discovery*
+
+<img vspace="10" hspace="10" align="left" width="150" height="220" src="/images/thumb_nemocad.JPG">
+The problem of drug discovery can be seen as a problem of inducing a given model system, such as frog embryos, into a targetted transcriptomic state--a snapshot of which genes or proteins are "on" or "off" in the desired state. However, many genes interact with one another through [regulatory mechanisms](#grn). Moreover, many drugs can have unintended side-effects since they impact more than one gene of interest. Therefore, we learn a network-aware Bayesian model from gene-gene and drug-gene datasets, which can be "queried" for appropriate gene therapies. We further extend this pipeline to affect not just desired genotypes, but phenotypes directly, which can facilitate closed-loop high-throughput drug screenings without performing transcriptomics analyses.
+
+[slides](/docs/slides_biomath.pdf) | [docs](https://nemocad.readthedocs.io/en/latest/) | [notebook](https://nbviewer.jupyter.org/github/sloomba/nemocad/blob/master/nemocad_tutorial.ipynb) | [code](https://github.com/sloomba/nemocad)
+
 ### Project THoR
 *Developing a probabilistic model of tolerance to pathogens in multiple host species*
 
@@ -90,9 +104,9 @@ Given that most bacteria are becoming resistant to antibiotics, there is an urge
 <img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_sd2.jpg">
 With the recent advent of synthetic biology, we are now engineering [biological circuits](https://en.wikipedia.org/wiki/Synthetic_biological_circuit) to perform functions of our choosing, may it be doing [arithmetic operations](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2690711/) or [diagnosing Zika](http://www.cell.com/cell/abstract/S0092-8674(16)30505-0). Since the space of functional circuits is huge, it has become increasingly important to automate the process of Synthetic Discovery and Design (SD2) of biological circuits. By making use of elementary logical motifs as the basic constituent of any complex function, we propose a novel algorithmic pipeline that goes from large-scale experimental data on biomolecular abundance in a system, to network structures (via network inference methods), to functional logical motifs (via graph embeddings such as [node2vec](https://arxiv.org/pdf/1607.00653.pdf) and [holographic embeddings](https://arxiv.org/pdf/1510.04935.pdf)), and eventually to operable and viable biological ciruits (via Bayesian model selection over [biokentic ODE models](https://en.wikipedia.org/wiki/Enzyme_kinetics)). This would allow us to generate novel and testable scientific hypotheses for biologists to test in the lab, and will thus create a new cycle of experimental data that can be iteratively used to refine our models.
 
-[code](https://github.com/sloomba/sd2) |
+[slides](/docs/slides_sd2.pdf) | [code](https://github.com/sloomba/sd2) |
 
-### Causal Computational Models for GRNs
+### <a name="grn"></a>Causal Computational Models for GRNs
 *Developiong a causal computational model for gene regulatory networks*
 
 <img vspace="10" hspace="10" align="left" width="150" height="80" src="/images/thumb_causalgrn.jpg">
@@ -188,6 +202,14 @@ The central objective of recent strides taken by biology and biochemistry has be
 
 ## Social Networks
 
+### Learning Social Connectivity Kernels
+*A cheap method to infer social connectivity models from egocentric data*
+
+<img vspace="10" hspace="10" align="left" width="150" height="140" src="/images/thumb_sashealth.JPG">
+Social networks play a crucial role in determining social outcomes, particularly those related to people's health and well-being. We present a novel method to learn probabilistic connectivity kernels from small-scale egocentric surveys, and consequently extract social access statistics from widely available socio-demographic surveys like the census. We demonstrate how different network centralities, that capture varied dimensions of [social capital](https://en.wikipedia.org/wiki/Social_capital), correlate to people's subjective and objective well-being. Being a generative model, representative networks can be sampled to pursue downstream social network analyses, both on network ensembles and at the model level.
+
+[pdf](/docs/pdf_sashealth.pdf) | 
+
 ### Wisdom of Crowds
 *A large-scale game to investigate the wisdom of crowds*
 
@@ -229,6 +251,15 @@ Born out of a Kaggle competition, classifying ocean plankton is an important ste
 <p align="right"><a href="#research_philosophy">Go to Top</a></p>
 
 ## Society
+
+### Urban Mobility
+*How far would you go? Comparing urban access in 10 Global Cities*
+
+<img vspace="10" hspace="10" align="left" width="150" height="140" src="/images/thumb_urbanaccess.JPG">
+Cities permit people to access a diverse range of venues and attractions with relative ease. A range of factors can determine how successfully they do so. We provide a probabilistic framework that captures 3 inter-related yet independently varying views of urban mobility: spatial, functional and social. The spatial view captures number of public venues across physical space (say a city), and thus the opportunities of access. The functional view captures venues across functional categories (say transport, restaurants), and thus the type of access. The social view is the sum of all behavioural
+considerations (people tend to go from offices to metro stations). We develop principled measures of urban and spatial access which are validated by using data on trip check-ins from the location-based social network [Foursquare](https://foursquare.com/about/), on 10 cities spread across the globe. Analysis reveals that people travel further for venue diversity, and for venue types they have a high affinity for. Consequently, there is a trade-off between local venue diversity and global venue popularity.
+
+[paper](/docs/paper_urbanaccess.pdf) | [pdf](/docs/pdf_urbanaccess.pdf)
 
 ### Rationality in Economics
 *Studying the unfounded assumptions of rationality in microeconomic theory*
