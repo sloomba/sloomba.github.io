@@ -7,7 +7,7 @@ I did my B.Tech in Computer Science and Engineering at [IIT Delhi](http://www.ii
 
 My broader research interest is to apply mathematics and machine learning to better understand how complex biological, cognitive and eventually social systems work--and perhaps more importantly, when they *don't* work. And in turn, use the knowledge gained to refine notions of computation itself. I've written more deeply about my thoughts on that [here](/docs/sahilloomba_statement.pdf).
 
-[Resume](/docs/sahilloomba_cv.pdf) | [GitHub](https://github.com/sloomba) | [Google Scholar](https://scholar.google.com/citations?user=uuwcbrAAAAAJ) | Email: <s.loomba18@imperial.ac.uk>
+[Resume](/docs/sahilloomba_cv.pdf) | [GitHub](https://github.com/sloomba) | Email: <s.loomba18@imperial.ac.uk>
 
 # Research Philosophy
 
@@ -26,7 +26,7 @@ Computation is a vital tool for understanding things at all levels of organizati
 <img vspace="10" hspace="10" align="left" width="200" height="130" src="/images/thumb_sbmeig.JPG">
 Statistical models of networks define a probabilistic space over graph structures, that once inferred can concisely summarize real-world networks. One such paradigm is [Stochastic Block Models](https://en.wikipedia.org/wiki/Stochastic_block_model), through which we develop a framework to define mean and variance of various network statistics. Using a random-walk approach, we generate model-level definitions of popular [centrality](https://en.wikipedia.org/wiki/Centrality) measures such as Katz centrality, betweenness, closeness and communicability centralities. This analysis matches up to the use of matrix functions for computing centralities at the graph level, extending it further for [betweenness](https://en.wikipedia.org/wiki/Betweenness_centrality) and [closeness centralities](https://en.wikipedia.org/wiki/Closeness_centrality). Additionally, we pursue the computation of spectral density of operators on graphs generated in this setup, with a focus on the expected [spectral radius](https://en.wikipedia.org/wiki/Spectral_radius) of the adjacency matrix. Our work demonstrates a unified approach to query means and uncertainties of nodal, local or global network statistics.
 
-_manuscript in prep_ | [&#8593;](#research_philosophy)
+[notebook](https://nbviewer.jupyter.org/github/sloomba/connectivity/blob/master/egosbm.ipynb) | [code](https://github.com/sloomba/connectivity) | _manuscript in prep_ | [&#8593;](#research_philosophy)
 
 ### X-t-SNE
 *Data visualization of multiple high-D spaces with associated graph structures*
@@ -202,7 +202,7 @@ The central objective of recent strides taken by biology and biochemistry has be
 
 # <a name="computation_for_society"></a>Computation for Society
 
-## Social Networks
+## Social Systems
 
 ### Learning Social Connectivity Kernels
 *A cheap method to infer social connectivity models from egocentric data*
@@ -210,7 +210,24 @@ The central objective of recent strides taken by biology and biochemistry has be
 <img vspace="10" hspace="10" align="left" width="200" height="140" src="/images/thumb_sashealth.JPG">
 Social networks play a crucial role in determining social outcomes, particularly those related to people's health and well-being. We present a novel method to learn probabilistic connectivity kernels from small-scale egocentric surveys, and consequently extract social access statistics from widely available socio-demographic surveys like the census. We demonstrate how different network centralities, that capture varied dimensions of [social capital](https://en.wikipedia.org/wiki/Social_capital), correlate to people's subjective and objective well-being. Being a generative model, representative networks can be sampled to pursue downstream social network analyses, both on network ensembles and at the model level.
 
-[pdf](/docs/pdf_sashealth.pdf) | [&#8593;](#research_philosophy)
+[pdf](/docs/pdf_sashealth.pdf) | [code](https://github.com/sloomba/connectivity) | [notebook](https://nbviewer.jupyter.org/github/sloomba/connectivity/blob/master/inferring_sbm_uk.ipynb) | _manuscript in prep_ | [&#8593;](#research_philosophy)
+
+### Urban Mobility
+*How far would you go? Comparing urban access in 10 Global Cities*
+
+<img vspace="10" hspace="10" align="left" width="160" height="140" src="/images/thumb_urbanaccess.JPG">
+Cities permit people to access a diverse range of venues and attractions with relative ease. A range of factors can determine how successfully they do so. We provide a probabilistic framework that captures 3 inter-related yet independently varying views of urban mobility: spatial, functional and social. The spatial view captures number of public venues across physical space (say a city), and thus the opportunities of access. The functional view captures venues across functional categories (say transport, restaurants), and thus the type of access. The social view is the sum of all behavioural
+considerations (people tend to go from offices to metro stations). We develop principled measures of urban and spatial access which are validated by using data on trip check-ins from the location-based social network [Foursquare](https://foursquare.com/about/), on 10 cities spread across the globe. Analysis reveals that people travel further for venue diversity, and for venue types they have a high affinity for. Consequently, there is a trade-off between local venue diversity and global venue popularity.
+
+[paper](/docs/paper_urbanaccess.pdf) | [pdf](/docs/pdf_urbanaccess.pdf) | [&#8593;](#research_philosophy)
+
+### Rationality in Economics
+*Studying the unfounded assumptions of rationality in microeconomic theory*
+
+<img vspace="10" hspace="10" align="left" width="150" height="140" src="/images/thumb_rationalityeconomics.jpg">
+The most foundational assumption in all of microeconomic theory is that of rationality: *Homo economicus* is an agent who is actuated only by self-interest. But there has been a lot of criticism for this key assumption, with counterexamples in the form of [tragedy of the commons](https://en.wikipedia.org/wiki/Tragedy_of_the_commons), and Sen's [Liberal Paradox](https://en.wikipedia.org/wiki/Liberal_paradox). We explore the "rationality" of this human economic agent, motivated by Daniel Hausman's anthology of essays ["Philosophy of Economics"](https://books.google.com/books/about/The_Philosophy_of_Economics.html?id=1S5GraRCFsgC) wherein he urges economists to not trust in the success of economic theories just because they seem to work, but to "look under the hood". We look at arguments by Hirschman (against parsimony), Gneezy & Rustichini (against ceteris paribus) and Benabou & Tirole (for inclusion of social norms). Sen's seminal paper, [Rational Fools](http://omega.cc.umb.edu/~pubpol/documents/Rationalfools--Sen.pdf) captures a similar sentiment into the idea of meta-preferences over usual preferences, ranked by laws and norms of the society. We propose an alternative look at economic theory, wherein theory is not founded on irrational assumptions of rationality. Rather, it is a constantly updated set of theories, driven by a previous iteration of policy making and public reaction.
+
+[pdf](/docs/pdf_rationalityeconomics.pdf) | [slides](/docs/slides_rationalityeconomics.pdf) | [readings](/docs/readinglist_rationalityeconomics.pdf) | [&#8593;](#research_philosophy)
 
 ### Wisdom of Crowds
 *A large-scale game to investigate the wisdom of crowds*
@@ -238,6 +255,14 @@ With a plethora of video lectures available for learning various topics, the cog
 
 [pdf](/docs/poster_videosequencing.pdf) | [code](https://github.com/sloomba/video-lecture-sequencing) | [&#8593;](#research_philosophy)
 
+### Morality of Unsettling Interventions
+*A cognitive solution to the moral problem of unsettlement of core beliefs*
+
+<img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_unsettlement.jpg">
+Unsettlement of our personal fundamental beliefs is a common occurrence in human interactions that allows people to update their beliefs about the world. This interventionary process can eventually define collective choice of a people. But it also places an interesting moral dilemma on the participants of the intervention: "is it *right* to unsettle someone else's core beliefs?" and "should I *let* myself get unsettled?" We present an abstraction of the cognitive machinery of the agents involved in this moral problem, the way they represent knowledge and beliefs, and offer a way to resolve this dilemma for both the unsettler and the one unsettled.
+
+[pdf](/docs/pdf_unsettlement.pdf) | [slides](/docs/slides_unsettlement.pdf) | [&#8593;](#research_philosophy)
+
 <p align="right"><a href="#research_philosophy">Go to Top</a></p>
 
 ## Environment
@@ -249,34 +274,5 @@ With a plethora of video lectures available for learning various topics, the cog
 Born out of a Kaggle competition, classifying ocean plankton is an important step to be able to quantify the health of oceans. This is essentially a large multi-class problem, with close to 120 classes of plankton to be classified, with highly skewed low-resolution image data. We apply a library of image processing techniques which can characterise the shape of one plankton from another: shape descriptors ([circularity constant](https://en.wikipedia.org/wiki/Roundness_(object)), [Hu moments](https://en.wikipedia.org/wiki/Image_moment)), orientation descriptors ([Gabor filters](https://en.wikipedia.org/wiki/Gabor_filter), [HoG vectors](https://en.wikipedia.org/wiki/Histogram_of_oriented_gradients)), feature descriptors ([SIFT](https://en.wikipedia.org/wiki/Scale-invariant_feature_transform)), and information descriptors ([Fourier analysis](https://homepages.inf.ed.ac.uk/rbf/HIPR2/fourier.htm)). We follow this by a library of machine learning techniques, from support vector machines, to random forests, to neural networks. Taking inspiration from the biological domain, we created hierarchically stacked classifiers mimicking the phylogeny tree structure of plankton classes. This increased accuracies on test data, from as low as 14% on a standard SVM, to as high as 82% on stacked SVMs.
 
 [slides 1](/docs/slides_1_plankton.pdf) | [slides 2](/docs/slides_2_plankton.pdf) | [code](https://github.com/harsh-parikh/plankton) | [&#8593;](#research_philosophy)
-
-<p align="right"><a href="#research_philosophy">Go to Top</a></p>
-
-## Society
-
-### Urban Mobility
-*How far would you go? Comparing urban access in 10 Global Cities*
-
-<img vspace="10" hspace="10" align="left" width="160" height="140" src="/images/thumb_urbanaccess.JPG">
-Cities permit people to access a diverse range of venues and attractions with relative ease. A range of factors can determine how successfully they do so. We provide a probabilistic framework that captures 3 inter-related yet independently varying views of urban mobility: spatial, functional and social. The spatial view captures number of public venues across physical space (say a city), and thus the opportunities of access. The functional view captures venues across functional categories (say transport, restaurants), and thus the type of access. The social view is the sum of all behavioural
-considerations (people tend to go from offices to metro stations). We develop principled measures of urban and spatial access which are validated by using data on trip check-ins from the location-based social network [Foursquare](https://foursquare.com/about/), on 10 cities spread across the globe. Analysis reveals that people travel further for venue diversity, and for venue types they have a high affinity for. Consequently, there is a trade-off between local venue diversity and global venue popularity.
-
-[paper](/docs/paper_urbanaccess.pdf) | [pdf](/docs/pdf_urbanaccess.pdf) | [&#8593;](#research_philosophy)
-
-### Rationality in Economics
-*Studying the unfounded assumptions of rationality in microeconomic theory*
-
-<img vspace="10" hspace="10" align="left" width="150" height="140" src="/images/thumb_rationalityeconomics.jpg">
-The most foundational assumption in all of microeconomic theory is that of rationality: *Homo economicus* is an agent who is actuated only by self-interest. But there has been a lot of criticism for this key assumption, with counterexamples in the form of [tragedy of the commons](https://en.wikipedia.org/wiki/Tragedy_of_the_commons), and Sen's [Liberal Paradox](https://en.wikipedia.org/wiki/Liberal_paradox). We explore the "rationality" of this human economic agent, motivated by Daniel Hausman's anthology of essays ["Philosophy of Economics"](https://books.google.com/books/about/The_Philosophy_of_Economics.html?id=1S5GraRCFsgC) wherein he urges economists to not trust in the success of economic theories just because they seem to work, but to "look under the hood". We look at arguments by Hirschman (against parsimony), Gneezy & Rustichini (against ceteris paribus) and Benabou & Tirole (for inclusion of social norms). Sen's seminal paper, [Rational Fools](http://omega.cc.umb.edu/~pubpol/documents/Rationalfools--Sen.pdf) captures a similar sentiment into the idea of meta-preferences over usual preferences, ranked by laws and norms of the society. We propose an alternative look at economic theory, wherein theory is not founded on irrational assumptions of rationality. Rather, it is a constantly updated set of theories, driven by a previous iteration of policy making and public reaction.
-
-[pdf](/docs/pdf_rationalityeconomics.pdf) | [slides](/docs/slides_rationalityeconomics.pdf) | [readings](/docs/readinglist_rationalityeconomics.pdf) | [&#8593;](#research_philosophy)
-
-### Morality of Unsettling Interventions
-*A cognitive solution to the moral problem of unsettlement of core beliefs*
-
-<img vspace="10" hspace="10" align="left" width="150" height="100" src="/images/thumb_unsettlement.jpg">
-Unsettlement of our personal fundamental beliefs is a common occurrence in human interactions that allows people to update their beliefs about the world. This interventionary process can eventually define collective choice of a people. But it also places an interesting moral dilemma on the participants of the intervention: "is it *right* to unsettle someone else's core beliefs?" and "should I *let* myself get unsettled?" We present an abstraction of the cognitive machinery of the agents involved in this moral problem, the way they represent knowledge and beliefs, and offer a way to resolve this dilemma for both the unsettler and the one unsettled.
-
-[pdf](/docs/pdf_unsettlement.pdf) | [slides](/docs/slides_unsettlement.pdf) | [&#8593;](#research_philosophy)
 
 <p align="right"><a href="#research_philosophy">Go to Top</a></p>
