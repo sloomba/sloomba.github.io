@@ -58,32 +58,6 @@ Many multi-classification problems have [multiple output labels](https://en.wiki
 
 ## Biomolecules
 
-### protein2vec
-*Embedding peptide sequences into a low-D vector space*
-
-<img vspace="10" hspace="10" align="left" width="150" height="80" src="/images/thumb_protein2vec.jpg">
-We are still far from solving a lot of problems in proteomics, may it be predicting protein folding [structure](https://en.wikipedia.org/wiki/Protein_structure_prediction), or their binding characterization, which are key to fully understanding how proteins participate in key biochemical reactions that define life as we know it. In collaboration with the [Church group](http://arep.med.harvard.edu/gmc/), we define an unsupervised problem of embedding protein sequences into an appropriate vector space, so that we can apply statistical machine learning for supervised problem of interest. We are building a seq2seq model of peptide sequences, based on the [RNN encoder-decoder](https://arxiv.org/pdf/1406.1078.pdf) and Google's attention-based [Transformer](https://arxiv.org/pdf/1706.03762.pdf) model. Besides encoding the primary sequence, we would concomitantly encode relevant physicochemical properties of [amino acids](https://en.wikipedia.org/wiki/Amino_acid) that can produce more biologically meaningful embeddings.
-
-[code](https://github.com/sloomba/protein2vec) | [&#8593;](#research_philosophy)
-
-### Gaussian Process Models for Time-Series Omics Analysis
-*Probabilistic modeling of gene expression evolution with time*
-
-<img vspace="10" hspace="10" align="left" width="150" height="110" src="/images/thumb_gpgene.jpg">
-Most biological systems have associated temporal dynamics, which are key to their complete mechanistic understanding. Regulation and expression of genes, their translation into proteins, and their consequent effects on biochemical reactions, are events unfolding in accordance with their respective kinetics. Current omics analyses for comparing samples across different phenotypes, like [differential expression](https://www3.nd.edu/~steve/Rcourse/Lecture11v1.pdf), focus on single snapshots of a system’s state (either at a particular point in or averaged over time). We applied two approaches to principally model time-series omics data using Gaussian process regression, and introduced methods for comparative analysis of multiple phenotypes with only few samples per phenotype. We used transcriptional data of frog embryos infected with four different initial doses of *Pseudomonas aeruginosa*, collected over the first 3 days of development. Key gene groups, that relate to pathways and processes involved in host-pathogen interactions, were also identified.
-
-[pdf](/docs/pdf_gpgene.pdf) | [slides](/docs/slides_gpgene.pdf) | [&#8593;](#research_philosophy)
-
-### Project ConDDR
-*Drug repurposing using an information-retrieval strategy*
-
-<img vspace="10" hspace="10" align="left" width="150" height="110" src="/images/thumb_conddr.jpg">
-Thousands of medically approved drugs are currently used to treat various diseases, but they can have complex interactions with more than one receptor proteins. That is, the same drug can interact with multiple receptors and thus be *repurposed* for treating a different disease. Moreover, their combinations can be given as so-called "drug cocktails" to improve a treatment's efficacy, as is now the norm in cancer therapies. With this motivation in mind we propose Context Dependent Drug Repurposing. We extracted an ontology of drug-gene interactions. We employ techniques of information retrieval on this interaction matrix, by treating it as a [document-word matrix](https://en.wikipedia.org/wiki/Document-term_matrix) and genes-of-interest as a query vector. We successfully "rediscover" conventional drugs for diseases such as TB, and discover novel ones for other bacterial infections.
-
-<p align="right"><a href="#research_philosophy">Go to Top</a></p>
-
-## Biomolecular Networks
-
 ### <a name="nemocad"></a>NeMoCAD
 *Network Model for Causally Aware Discovery*
 
@@ -108,6 +82,28 @@ With the recent advent of synthetic biology, we are now engineering [biological 
 
 [slides](/docs/slides_sd2.pdf) | [code](https://github.com/sloomba/sd2) | [&#8593;](#research_philosophy)
 
+### protein2vec
+*Embedding peptide sequences into a low-D vector space*
+
+<img vspace="10" hspace="10" align="left" width="150" height="80" src="/images/thumb_protein2vec.jpg">
+We are still far from solving a lot of problems in proteomics, may it be predicting protein folding [structure](https://en.wikipedia.org/wiki/Protein_structure_prediction), or their binding characterization, which are key to fully understanding how proteins participate in key biochemical reactions that define life as we know it. In collaboration with the [Church group](http://arep.med.harvard.edu/gmc/), we define an unsupervised problem of embedding protein sequences into an appropriate vector space, so that we can apply statistical machine learning for supervised problem of interest. We are building a seq2seq model of peptide sequences, based on the [RNN encoder-decoder](https://arxiv.org/pdf/1406.1078.pdf) and Google's attention-based [Transformer](https://arxiv.org/pdf/1706.03762.pdf) model. Besides encoding the primary sequence, we would concomitantly encode relevant physicochemical properties of [amino acids](https://en.wikipedia.org/wiki/Amino_acid) that can produce more biologically meaningful embeddings.
+
+[code](https://github.com/sloomba/protein2vec) | [&#8593;](#research_philosophy)
+
+### Gaussian Process Models for Time-Series Omics Analysis
+*Probabilistic modeling of gene expression evolution with time*
+
+<img vspace="10" hspace="10" align="left" width="150" height="110" src="/images/thumb_gpgene.jpg">
+Most biological systems have associated temporal dynamics, which are key to their complete mechanistic understanding. Regulation and expression of genes, their translation into proteins, and their consequent effects on biochemical reactions, are events unfolding in accordance with their respective kinetics. Current omics analyses for comparing samples across different phenotypes, like [differential expression](https://www3.nd.edu/~steve/Rcourse/Lecture11v1.pdf), focus on single snapshots of a system’s state (either at a particular point in or averaged over time). We applied two approaches to principally model time-series omics data using Gaussian process regression, and introduced methods for comparative analysis of multiple phenotypes with only few samples per phenotype. We used transcriptional data of frog embryos infected with four different initial doses of *Pseudomonas aeruginosa*, collected over the first 3 days of development. Key gene groups, that relate to pathways and processes involved in host-pathogen interactions, were also identified.
+
+[pdf](/docs/pdf_gpgene.pdf) | [slides](/docs/slides_gpgene.pdf) | [&#8593;](#research_philosophy)
+
+### Project ConDDR
+*Drug repurposing using an information-retrieval strategy*
+
+<img vspace="10" hspace="10" align="left" width="150" height="110" src="/images/thumb_conddr.jpg">
+Thousands of medically approved drugs are currently used to treat various diseases, but they can have complex interactions with more than one receptor proteins. That is, the same drug can interact with multiple receptors and thus be *repurposed* for treating a different disease. Moreover, their combinations can be given as so-called "drug cocktails" to improve a treatment's efficacy, as is now the norm in cancer therapies. With this motivation in mind we propose Context Dependent Drug Repurposing. We extracted an ontology of drug-gene interactions. We employ techniques of information retrieval on this interaction matrix, by treating it as a [document-word matrix](https://en.wikipedia.org/wiki/Document-term_matrix) and genes-of-interest as a query vector. We successfully "rediscover" conventional drugs for diseases such as TB, and discover novel ones for other bacterial infections.
+
 ### <a name="grn"></a>Causal Computational Models for GRNs
 *Developiong a causal computational model for gene regulatory networks*
 
@@ -126,7 +122,7 @@ Biological networks, may they be gene regulatory networks or protein-protein int
 
 <p align="right"><a href="#research_philosophy">Go to Top</a></p>
 
-## Biological Cells
+## Organisms
 
 ### <a name="maldi"></a>Project MALDI for Diagnosis
 *A probabilistic model for detecting pathogens in a given sample*
@@ -144,10 +140,6 @@ The purpose of this project was to identify *Mycobacterium tuberculosis* within 
 
 [slides](/docs/slides_apoptosis.pdf) | [code](https://github.com/sloomba/apoptosis) | [&#8593;](#research_philosophy)
 
-<p align="right"><a href="#research_philosophy">Go to Top</a></p>
-
-## Human Body
-
 ### Project Abbie
 *An ML model for predicting the severity of breathing under an asthma attack*
 
@@ -159,20 +151,6 @@ Asthma is a common inflammatory disease of lung airways which affects millions o
 <p align="right"><a href="#research_philosophy">Go to Top</a></p>
 
 # <a name="computation_for_cognition"></a>Computation for Cognition
-
-## Cellular Signalling
-
-### Human Motor Control
-*An ML model for predicting thought of motor activity using EEG signals*
-
-<img vspace="10" hspace="10" align="left" width="150" height="180" src="/images/thumb_eeg.jpg">
-Recent advances in modern brain-imaging techniques have hugely bolstered research in areas of brain sciences and cognitive studies. While they were earlier being used for merely diagnosing brain disorders, they are now being used to generate highly utilitarian bits of data. One such imaging technique is [EEG](https://en.wikipedia.org/wiki/Electroencephalography), which essentially measures the averaged electrical potential across the human scalp. The motivation behind this project was to develop a computational basis for developing real-time brain controlled actions, such as thought-controlled prosthetic limbs or electronic devices. Can we recover signatures of motor activity, or the thought of motor activity, from the EEG signal? We conducted controlled experiments to collect EEG data. Using techniques from machine learning, we then classify them into three motion states of rest, arm jerk, and thought of arm jerk.
-
-[pdf](/docs/pdf_eeg.pdf) | [poster](/docs/poster_eeg.pdf) | [slides](/docs/slides_eeg.pdf) | [&#8593;](#research_philosophy)
-
-<p align="right"><a href="#research_philosophy">Go to Top</a></p>
-
-## Human Brain
 
 ### Human Category Learning
 *Testing the brain lateralization of two models of human category learning*
@@ -189,6 +167,14 @@ Human cognitive systems rely heavily on how knowledge is represented within thes
 Given the resource constraints that human cognitive systems operate under, how do adults and children inductively learn from the percepts we encounter? Certainly, there are some heuristics involved in not just our inductive learning, but also in the way we do inference and reasoning. Can we explain away the use of such “shortcuts” by improving current computational cognitive models? This project was an attempt in answering such questions, by taking the work by [Kemp et al. (2008)](http://www.pnas.org/content/105/31/10687.full) on form learning as a neat illustration of some key ideas. We extend their work by stressing on the need to include topology ([manifold learning](https://en.wikipedia.org/wiki/Nonlinear_dimensionality_reduction)) and hierarchical Bayesian modelling, by providing experimental results to support our stance.
 
 [pdf](/docs/pdf_formlearning.pdf) | [slides](/docs/slides_formlearning.pdf) | [&#8593;](#research_philosophy)
+
+### Human Motor Control
+*An ML model for predicting thought of motor activity using EEG signals*
+
+<img vspace="10" hspace="10" align="left" width="150" height="180" src="/images/thumb_eeg.jpg">
+Recent advances in modern brain-imaging techniques have hugely bolstered research in areas of brain sciences and cognitive studies. While they were earlier being used for merely diagnosing brain disorders, they are now being used to generate highly utilitarian bits of data. One such imaging technique is [EEG](https://en.wikipedia.org/wiki/Electroencephalography), which essentially measures the averaged electrical potential across the human scalp. The motivation behind this project was to develop a computational basis for developing real-time brain controlled actions, such as thought-controlled prosthetic limbs or electronic devices. Can we recover signatures of motor activity, or the thought of motor activity, from the EEG signal? We conducted controlled experiments to collect EEG data. Using techniques from machine learning, we then classify them into three motion states of rest, arm jerk, and thought of arm jerk.
+
+[pdf](/docs/pdf_eeg.pdf) | [poster](/docs/poster_eeg.pdf) | [slides](/docs/slides_eeg.pdf) | [&#8593;](#research_philosophy)
 
 ### Complexity of Living and Biological Systems
 *On the limits to understanding complex systems, from a computational complexity POV*
