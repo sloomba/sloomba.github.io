@@ -26,7 +26,7 @@ Computation is a vital tool for understanding things at all levels of organizati
 <img vspace="10" hspace="10" align="left" width="200" height="130" src="/images/thumb_sbmeig.JPG">
 Statistical models of networks define a probabilistic space over graph structures, that once inferred can concisely summarize real-world networks. One such paradigm is [Stochastic Block Models](https://en.wikipedia.org/wiki/Stochastic_block_model), through which we develop a framework to define mean and variance of various network statistics. Using a random-walk approach, we generate model-level definitions of popular [centrality](https://en.wikipedia.org/wiki/Centrality) measures such as Katz centrality, betweenness, closeness and communicability centralities. This analysis matches up to the use of matrix functions for computing centralities at the graph level, extending it further for [betweenness](https://en.wikipedia.org/wiki/Betweenness_centrality) and [closeness centralities](https://en.wikipedia.org/wiki/Closeness_centrality). Additionally, we pursue the computation of spectral density of operators on graphs generated in this setup, with a focus on the expected [spectral radius](https://en.wikipedia.org/wiki/Spectral_radius) of the adjacency matrix. Our work demonstrates a unified approach to query means and uncertainties of nodal, local or global network statistics.
 
-[notebook](https://nbviewer.jupyter.org/github/sloomba/connectivity/blob/master/egosbm.ipynb) | [code](https://github.com/sloomba/connectivity) | _manuscript in prep_ | [&#8593;](#research_philosophy)
+[notebook](https://nbviewer.jupyter.org/github/sloomba/connectivity/blob/master/nbs/egosbm.ipynb) | [code](https://github.com/sloomba/connectivity) | _manuscript in prep_ | [&#8593;](#research_philosophy)
 
 ### X-t-SNE
 *Data visualization of multiple high-D spaces with associated graph structures*
@@ -210,7 +210,7 @@ The central objective of recent strides taken by biology and biochemistry has be
 <img vspace="10" hspace="10" align="left" width="200" height="140" src="/images/thumb_sashealth.JPG">
 Social networks play a crucial role in determining social outcomes, particularly those related to people's health and well-being. We present a novel method to learn probabilistic connectivity kernels from small-scale egocentric surveys, and consequently extract social access statistics from widely available socio-demographic surveys like the census. We demonstrate how different network centralities, that capture varied dimensions of [social capital](https://en.wikipedia.org/wiki/Social_capital), correlate to people's subjective and objective well-being. Being a generative model, representative networks can be sampled to pursue downstream social network analyses, both on network ensembles and at the model level.
 
-[pdf](/docs/pdf_sashealth.pdf) | [code](https://github.com/sloomba/connectivity) | [notebook](https://nbviewer.jupyter.org/github/sloomba/connectivity/blob/master/inferring_sbm_uk.ipynb) | _manuscript in prep_ | [&#8593;](#research_philosophy)
+[pdf](/docs/pdf_sashealth.pdf) | [code](https://github.com/sloomba/connectivity) | [notebook](https://nbviewer.jupyter.org/github/sloomba/connectivity/blob/master/nbs/inferring_sbm_uk.ipynb) | _manuscript in prep_ | [&#8593;](#research_philosophy)
 
 ### Urban Mobility
 *How far would you go? Comparing urban access in 10 Global Cities*
