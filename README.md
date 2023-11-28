@@ -9,7 +9,7 @@ I did my B.Tech in Computer Science and Engineering at [IIT Delhi](http://www.ii
 
 My broader research interest is to apply mathematics and machine learning to better understand how complex biological, cognitive and eventually social systems work--and perhaps more importantly, when they *don't* work. And in turn, use the knowledge gained to refine notions of computation itself. I've written more deeply about my thoughts on that [here](/docs/sahilloomba_statement.pdf).
 
-[Resume](/docs/sahilloomba_cv.pdf) | [GitHub](https://github.com/sloomba) | Email: <s.loomba18@imperial.ac.uk>
+[Resume](/docs/sahilloomba_cv.pdf) | [GitHub](https://github.com/sloomba) | Email: firstinitiallastname@mit.edu
 
 # Research Philosophy
 
